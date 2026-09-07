@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form_v6_参数面板
     Inherits System.Windows.Forms.Form
 
@@ -44,11 +44,12 @@ Partial Class Form_v6_参数面板
         Dim ModernTabPage20 As LakeUI.ModernTabListControl.ModernTabPage = New LakeUI.ModernTabListControl.ModernTabPage()
         ModernTabListControl1 = New LakeUI.ModernTabListControl()
         ModernPanel1 = New LakeUI.ModernPanel()
+        ModernPanel1.BackColor = Color.Transparent
         ModernPanel1.SuspendLayout()
         SuspendLayout()
-        ' 
+        '
         ' ModernTabListControl1
-        ' 
+        '
         ModernTabListControl1.AnimationDuration = 0
         ModernTabListControl1.BackColor = Color.Transparent
         ModernTabListControl1.Dock = DockStyle.Fill
@@ -82,7 +83,6 @@ Partial Class Form_v6_参数面板
         ModernTabListControl1.Items.Add(ModernTabPage8)
         ModernTabListControl1.Items.Add(ModernTabPage9)
         ModernTabListControl1.Items.Add(ModernTabPage10)
-        ModernTabListControl1.Items.Add(ModernTabPage11)
         ModernTabListControl1.Items.Add(ModernTabPage12)
         ModernTabListControl1.Items.Add(ModernTabPage13)
         ModernTabListControl1.Items.Add(ModernTabPage14)
@@ -92,6 +92,7 @@ Partial Class Form_v6_参数面板
         ModernTabListControl1.Items.Add(ModernTabPage18)
         ModernTabListControl1.Items.Add(ModernTabPage19)
         ModernTabListControl1.Items.Add(ModernTabPage20)
+        ModernTabListControl1.Items.Add(ModernTabPage11)
         ModernTabListControl1.Location = New Point(0, 0)
         ModernTabListControl1.Name = "ModernTabListControl1"
         ModernTabListControl1.ScrollBarThumbColor = Color.FromArgb(CByte(40), CByte(200), CByte(200), CByte(200))
@@ -107,9 +108,9 @@ Partial Class Form_v6_参数面板
         ModernTabListControl1.TabItemSpacing = 0
         ModernTabListControl1.TabStripBackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         ModernTabListControl1.TabStripWidth = 210
-        ' 
+        '
         ' ModernPanel1
-        ' 
+        '
         ModernPanel1.BackColor1 = Color.Transparent
         ModernPanel1.BorderSize = 0
         ModernPanel1.Controls.Add(ModernTabListControl1)
@@ -119,9 +120,9 @@ Partial Class Form_v6_参数面板
         ModernPanel1.ScrollBarMode = LakeUI.ModernPanel.ScrollMode.None
         ModernPanel1.Size = New Size(959, 653)
         ModernPanel1.TabIndex = 2
-        ' 
+        '
         ' Form_v6_参数面板
-        ' 
+        '
         AutoScaleDimensions = New SizeF(96F, 96F)
         AutoScaleMode = AutoScaleMode.Dpi
         BackColor = Color.FromArgb(CByte(24), CByte(24), CByte(24))

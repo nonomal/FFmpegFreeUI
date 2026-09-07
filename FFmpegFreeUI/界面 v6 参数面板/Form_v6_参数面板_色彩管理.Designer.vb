@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form_v6_参数面板_色彩管理
     Inherits System.Windows.Forms.Form
 
@@ -22,66 +22,105 @@ Partial Class Form_v6_参数面板_色彩管理
     '不要使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim TrackLabel1 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel2 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel3 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel4 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel5 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel6 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel7 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel8 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel9 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel10 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel11 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim TrackLabel12 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_v6_参数面板_色彩管理))
+        Dim TrackLabel13 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel14 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel15 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel16 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel17 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel18 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel19 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel20 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel21 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel22 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel23 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
+        Dim TrackLabel24 As LakeUI.ExcellentTrackBar.TrackLabel = New LakeUI.ExcellentTrackBar.TrackLabel()
         ModernPanel1 = New LakeUI.ModernPanel()
-        Panel9 = New Panel()
-        HtmlColorLabel13 = New LakeUI.HtmlColorLabel()
-        Panel13 = New Panel()
-        ExcellentTrackBar4 = New LakeUI.ExcellentTrackBar()
-        Label4 = New Label()
+        ModernPanel1.BackColor = Color.Transparent
+        ModernPanel1.BackColor1 = Color.Transparent
+        Panel9 = New LakeUI.ModernPanel()
+        Panel9.BackColor = Color.Transparent
+        Panel9.BackColor1 = Color.Transparent
+        Panel9.BorderSize = 0
+        Panel13 = New LakeUI.ModernPanel()
+        Panel13.BackColor = Color.Transparent
+        Panel13.BackColor1 = Color.Transparent
+        Panel13.BorderSize = 0
+        ETB_伽马 = New LakeUI.ExcellentTrackBar()
         JustEmptyControl5 = New LakeUI.JustEmptyControl()
-        Panel12 = New Panel()
-        ExcellentTrackBar3 = New LakeUI.ExcellentTrackBar()
-        Label3 = New Label()
+        Panel12 = New LakeUI.ModernPanel()
+        Panel12.BackColor = Color.Transparent
+        Panel12.BackColor1 = Color.Transparent
+        Panel12.BorderSize = 0
+        ETB_饱和度 = New LakeUI.ExcellentTrackBar()
         JustEmptyControl3 = New LakeUI.JustEmptyControl()
-        Panel11 = New Panel()
-        ExcellentTrackBar2 = New LakeUI.ExcellentTrackBar()
-        Label2 = New Label()
+        Panel11 = New LakeUI.ModernPanel()
+        Panel11.BackColor = Color.Transparent
+        Panel11.BackColor1 = Color.Transparent
+        Panel11.BorderSize = 0
+        ETB_对比度 = New LakeUI.ExcellentTrackBar()
         JustEmptyControl2 = New LakeUI.JustEmptyControl()
-        Panel10 = New Panel()
-        ExcellentTrackBar1 = New LakeUI.ExcellentTrackBar()
-        Label1 = New Label()
-        HtmlColorLabel11 = New LakeUI.HtmlColorLabel()
-        Panel8 = New Panel()
-        HtmlColorLabel12 = New LakeUI.HtmlColorLabel()
-        ModernComboBox9 = New LakeUI.ModernComboBox()
-        Panel7 = New Panel()
-        HtmlColorLabel10 = New LakeUI.HtmlColorLabel()
-        ModernComboBox8 = New LakeUI.ModernComboBox()
-        Panel6 = New Panel()
-        HtmlColorLabel9 = New LakeUI.HtmlColorLabel()
-        ModernComboBox7 = New LakeUI.ModernComboBox()
-        Panel5 = New Panel()
-        HtmlColorLabel8 = New LakeUI.HtmlColorLabel()
-        ModernComboBox6 = New LakeUI.ModernComboBox()
-        Panel4 = New Panel()
-        HtmlColorLabel7 = New LakeUI.HtmlColorLabel()
-        ModernComboBox5 = New LakeUI.ModernComboBox()
-        Panel3 = New Panel()
-        HtmlColorLabel5 = New LakeUI.HtmlColorLabel()
-        ModernComboBox3 = New LakeUI.ModernComboBox()
-        Panel1 = New Panel()
-        HtmlColorLabel6 = New LakeUI.HtmlColorLabel()
-        ModernComboBox4 = New LakeUI.ModernComboBox()
-        HtmlColorLabel4 = New LakeUI.HtmlColorLabel()
-        Panel2 = New Panel()
-        HtmlColorLabel3 = New LakeUI.HtmlColorLabel()
-        MCB_预先转换到像素格式 = New LakeUI.ModernComboBox()
-        HtmlColorLabel2 = New LakeUI.HtmlColorLabel()
+        Panel10 = New LakeUI.ModernPanel()
+        Panel10.BackColor = Color.Transparent
+        Panel10.BackColor1 = Color.Transparent
+        Panel10.BorderSize = 0
+        ETB_亮度 = New LakeUI.ExcellentTrackBar()
+        HCL_简易调色 = New LakeUI.HtmlColorLabel()
+        Panel8 = New LakeUI.ModernPanel()
+        Panel8.BackColor = Color.Transparent
+        Panel8.BackColor1 = Color.Transparent
+        Panel8.BorderSize = 0
+        HCL_操作方式 = New LakeUI.HtmlColorLabel()
+        MCB_色彩管理_色彩空间操作方式 = New LakeUI.ModernComboBox()
+        Panel7 = New LakeUI.ModernPanel()
+        Panel7.BackColor = Color.Transparent
+        Panel7.BackColor1 = Color.Transparent
+        Panel7.BorderSize = 0
+        HCL_色调映射算法 = New LakeUI.HtmlColorLabel()
+        MCB_色彩管理_色调映射算法 = New LakeUI.ModernComboBox()
+        Panel6 = New LakeUI.ModernPanel()
+        Panel6.BackColor = Color.Transparent
+        Panel6.BackColor1 = Color.Transparent
+        Panel6.BorderSize = 0
+        HCL_色彩范围 = New LakeUI.HtmlColorLabel()
+        MCB_色彩管理_色彩范围 = New LakeUI.ModernComboBox()
+        Panel5 = New LakeUI.ModernPanel()
+        Panel5.BackColor = Color.Transparent
+        Panel5.BackColor1 = Color.Transparent
+        Panel5.BorderSize = 0
+        HCL_传输特性 = New LakeUI.HtmlColorLabel()
+        MCB_色彩管理_传输特性 = New LakeUI.ModernComboBox()
+        Panel4 = New LakeUI.ModernPanel()
+        Panel4.BackColor = Color.Transparent
+        Panel4.BackColor1 = Color.Transparent
+        Panel4.BorderSize = 0
+        HCL_色域 = New LakeUI.HtmlColorLabel()
+        MCB_色彩管理_色域 = New LakeUI.ModernComboBox()
+        Panel3 = New LakeUI.ModernPanel()
+        Panel3.BackColor = Color.Transparent
+        Panel3.BackColor1 = Color.Transparent
+        Panel3.BorderSize = 0
+        HCL_矩阵系数 = New LakeUI.HtmlColorLabel()
+        MCB_色彩管理_矩阵系数 = New LakeUI.ModernComboBox()
+        Panel1 = New LakeUI.ModernPanel()
+        Panel1.BackColor = Color.Transparent
+        Panel1.BackColor1 = Color.Transparent
+        Panel1.BorderSize = 0
+        HCL_选择滤镜 = New LakeUI.HtmlColorLabel()
+        MCB_色彩管理_选择滤镜 = New LakeUI.ModernComboBox()
+        HCL_色彩空间 = New LakeUI.HtmlColorLabel()
+        Panel2 = New LakeUI.ModernPanel()
+        Panel2.BackColor = Color.Transparent
+        Panel2.BackColor1 = Color.Transparent
+        Panel2.BorderSize = 0
+        HCL_预先转换 = New LakeUI.HtmlColorLabel()
+        MCB_像素格式预先转换 = New LakeUI.ModernComboBox()
+        HCL_最终输出 = New LakeUI.HtmlColorLabel()
         MCB_像素格式 = New LakeUI.ModernComboBox()
-        HtmlColorLabel1 = New LakeUI.HtmlColorLabel()
+        HCL_像素格式 = New LakeUI.HtmlColorLabel()
+        MCK_启用亮度调整 = New LakeUI.ModernCheckBox()
+        MCK_启用对比度调整 = New LakeUI.ModernCheckBox()
+        MCK_启用饱和度调整 = New LakeUI.ModernCheckBox()
+        MCK_启用伽马调整 = New LakeUI.ModernCheckBox()
         ModernPanel1.SuspendLayout()
         Panel9.SuspendLayout()
         Panel13.SuspendLayout()
@@ -97,13 +136,12 @@ Partial Class Form_v6_参数面板_色彩管理
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         SuspendLayout()
-        ' 
+        '
         ' ModernPanel1
-        ' 
-        ModernPanel1.BackColor1 = Color.FromArgb(CByte(24), CByte(24), CByte(24))
+        '
         ModernPanel1.BorderSize = 0
         ModernPanel1.Controls.Add(Panel9)
-        ModernPanel1.Controls.Add(HtmlColorLabel11)
+        ModernPanel1.Controls.Add(HCL_简易调色)
         ModernPanel1.Controls.Add(Panel8)
         ModernPanel1.Controls.Add(Panel7)
         ModernPanel1.Controls.Add(Panel6)
@@ -111,9 +149,9 @@ Partial Class Form_v6_参数面板_色彩管理
         ModernPanel1.Controls.Add(Panel4)
         ModernPanel1.Controls.Add(Panel3)
         ModernPanel1.Controls.Add(Panel1)
-        ModernPanel1.Controls.Add(HtmlColorLabel4)
+        ModernPanel1.Controls.Add(HCL_色彩空间)
         ModernPanel1.Controls.Add(Panel2)
-        ModernPanel1.Controls.Add(HtmlColorLabel1)
+        ModernPanel1.Controls.Add(HCL_像素格式)
         ModernPanel1.Dock = DockStyle.Fill
         ModernPanel1.Location = New Point(0, 0)
         ModernPanel1.Name = "ModernPanel1"
@@ -121,10 +159,9 @@ Partial Class Form_v6_参数面板_色彩管理
         ModernPanel1.ScrollBarMode = LakeUI.ModernPanel.ScrollMode.Vertical
         ModernPanel1.Size = New Size(842, 695)
         ModernPanel1.TabIndex = 0
-        ' 
+        '
         ' Panel9
-        ' 
-        Panel9.Controls.Add(HtmlColorLabel13)
+        '
         Panel9.Controls.Add(Panel13)
         Panel9.Controls.Add(JustEmptyControl5)
         Panel9.Controls.Add(Panel12)
@@ -133,747 +170,898 @@ Partial Class Form_v6_参数面板_色彩管理
         Panel9.Controls.Add(JustEmptyControl2)
         Panel9.Controls.Add(Panel10)
         Panel9.Dock = DockStyle.Fill
-        Panel9.Location = New Point(20, 486)
+        Panel9.Location = New Point(20, 476)
         Panel9.Name = "Panel9"
-        Panel9.Size = New Size(790, 189)
+        Panel9.Size = New Size(802, 199)
         Panel9.TabIndex = 18
-        ' 
-        ' HtmlColorLabel13
-        ' 
-        HtmlColorLabel13.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel13.Dock = DockStyle.Fill
-        HtmlColorLabel13.ForeColor = Color.Gray
-        HtmlColorLabel13.Location = New Point(615, 0)
-        HtmlColorLabel13.Margin = New Padding(2)
-        HtmlColorLabel13.Name = "HtmlColorLabel13"
-        HtmlColorLabel13.Padding = New Padding(10, 0, 10, 0)
-        HtmlColorLabel13.Size = New Size(175, 189)
-        HtmlColorLabel13.TabIndex = 8
-        HtmlColorLabel13.Text = "将滑块放到 <span style=""font-size:10pt; color:Goldenrod"">原点</span> 即表示不调整，可以使用 <span style=""font-size:10pt; color:Goldenrod"">鼠标滚轮</span> 进行微调"
-        ' 
+        '
         ' Panel13
-        ' 
-        Panel13.Controls.Add(ExcellentTrackBar4)
-        Panel13.Controls.Add(Label4)
+        '
+        Panel13.Controls.Add(ETB_伽马)
+        Panel13.Controls.Add(MCK_启用伽马调整)
         Panel13.Dock = DockStyle.Left
         Panel13.Location = New Point(465, 0)
         Panel13.Name = "Panel13"
-        Panel13.Size = New Size(150, 189)
+        Panel13.Size = New Size(150, 199)
         Panel13.TabIndex = 7
-        ' 
-        ' ExcellentTrackBar4
-        ' 
-        ExcellentTrackBar4.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
-        ExcellentTrackBar4.Dock = DockStyle.Fill
-        ExcellentTrackBar4.LabelLineLength = 20
-        TrackLabel1.Position = 10R
-        TrackLabel1.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel1.Text = "最亮"
-        TrackLabel2.Position = 1R
-        TrackLabel2.Text = "原点"
-        TrackLabel3.Position = 0.10000000149011612R
-        TrackLabel3.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel3.Text = "最暗"
-        ExcellentTrackBar4.Labels.Add(TrackLabel1)
-        ExcellentTrackBar4.Labels.Add(TrackLabel2)
-        ExcellentTrackBar4.Labels.Add(TrackLabel3)
-        ExcellentTrackBar4.LargeChange = 0.1R
-        ExcellentTrackBar4.Location = New Point(0, 0)
-        ExcellentTrackBar4.Margin = New Padding(2, 2, 2, 2)
-        ExcellentTrackBar4.Maximum = 10R
-        ExcellentTrackBar4.Minimum = 0.1R
-        ExcellentTrackBar4.Name = "ExcellentTrackBar4"
-        ExcellentTrackBar4.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
-        ExcellentTrackBar4.Padding = New Padding(0, 10, 0, 10)
-        ExcellentTrackBar4.Size = New Size(150, 159)
-        ExcellentTrackBar4.SmallChange = 0.1R
-        ExcellentTrackBar4.TabIndex = 1
-        ExcellentTrackBar4.ThumbBorderWidth = 0
-        ExcellentTrackBar4.ThumbColor = Color.MediumPurple
-        ExcellentTrackBar4.ThumbHeight = 28
-        ExcellentTrackBar4.ThumbTextDecimalPlaces = 1
-        ExcellentTrackBar4.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
-        ExcellentTrackBar4.ThumbWidth = 38
-        ExcellentTrackBar4.Value = 1R
-        ' 
-        ' Label4
-        ' 
-        Label4.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
-        Label4.Dock = DockStyle.Bottom
-        Label4.Location = New Point(0, 159)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(150, 30)
-        Label4.TabIndex = 0
-        Label4.Text = "伽马"
-        Label4.TextAlign = ContentAlignment.MiddleCenter
-        ' 
+        '
+        ' ETB_伽马
+        '
+        ETB_伽马.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        ETB_伽马.Dock = DockStyle.Fill
+        ETB_伽马.LabelColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_伽马.LabelLineColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_伽马.LabelLineLength = 20
+        TrackLabel13.Position = 10R
+        TrackLabel13.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel13.Text = "最亮"
+        TrackLabel14.Position = 1R
+        TrackLabel14.Text = "原点"
+        TrackLabel15.Position = 0.10000000149011612R
+        TrackLabel15.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel15.Text = "最暗"
+        ETB_伽马.Labels.Add(TrackLabel13)
+        ETB_伽马.Labels.Add(TrackLabel14)
+        ETB_伽马.Labels.Add(TrackLabel15)
+        ETB_伽马.LargeChange = 0.1R
+        ETB_伽马.Location = New Point(0, 0)
+        ETB_伽马.Margin = New Padding(2, 2, 2, 2)
+        ETB_伽马.Maximum = 10R
+        ETB_伽马.Minimum = 0.1R
+        ETB_伽马.Name = "ETB_伽马"
+        ETB_伽马.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
+        ETB_伽马.Padding = New Padding(0, 10, 0, 10)
+        ETB_伽马.Size = New Size(150, 157)
+        ETB_伽马.SmallChange = 0.1R
+        ETB_伽马.TabIndex = 1
+        ETB_伽马.ThumbBorderWidth = 0
+        ETB_伽马.ThumbColor = Color.MediumPurple
+        ETB_伽马.ThumbHeight = 28
+        ETB_伽马.ThumbTextDecimalPlaces = 1
+        ETB_伽马.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
+        ETB_伽马.ThumbWidth = 38
+        ETB_伽马.TrackColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_伽马.TrackFillColor = Color.Transparent
+        ETB_伽马.Value = 1R
+        '
         ' JustEmptyControl5
-        ' 
+        '
         JustEmptyControl5.Dock = DockStyle.Left
         JustEmptyControl5.Location = New Point(460, 0)
         JustEmptyControl5.Name = "JustEmptyControl5"
-        JustEmptyControl5.Size = New Size(5, 189)
+        JustEmptyControl5.Size = New Size(5, 199)
         JustEmptyControl5.TabIndex = 6
-        ' 
+        '
         ' Panel12
-        ' 
-        Panel12.Controls.Add(ExcellentTrackBar3)
-        Panel12.Controls.Add(Label3)
+        '
+        Panel12.Controls.Add(ETB_饱和度)
+        Panel12.Controls.Add(MCK_启用饱和度调整)
         Panel12.Dock = DockStyle.Left
         Panel12.Location = New Point(310, 0)
         Panel12.Name = "Panel12"
-        Panel12.Size = New Size(150, 189)
+        Panel12.Size = New Size(150, 199)
         Panel12.TabIndex = 5
-        ' 
-        ' ExcellentTrackBar3
-        ' 
-        ExcellentTrackBar3.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
-        ExcellentTrackBar3.Dock = DockStyle.Fill
-        ExcellentTrackBar3.LabelLineLength = 20
-        TrackLabel4.Position = 3R
-        TrackLabel4.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel4.Text = "最高"
-        TrackLabel5.Position = 1R
-        TrackLabel5.Text = "原点"
-        TrackLabel6.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel6.Text = "最低"
-        ExcellentTrackBar3.Labels.Add(TrackLabel4)
-        ExcellentTrackBar3.Labels.Add(TrackLabel5)
-        ExcellentTrackBar3.Labels.Add(TrackLabel6)
-        ExcellentTrackBar3.LargeChange = 0.1R
-        ExcellentTrackBar3.Location = New Point(0, 0)
-        ExcellentTrackBar3.Margin = New Padding(2, 2, 2, 2)
-        ExcellentTrackBar3.Maximum = 3R
-        ExcellentTrackBar3.Name = "ExcellentTrackBar3"
-        ExcellentTrackBar3.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
-        ExcellentTrackBar3.Padding = New Padding(0, 10, 0, 10)
-        ExcellentTrackBar3.Size = New Size(150, 159)
-        ExcellentTrackBar3.SmallChange = 0.1R
-        ExcellentTrackBar3.TabIndex = 1
-        ExcellentTrackBar3.ThumbBorderWidth = 0
-        ExcellentTrackBar3.ThumbColor = Color.CornflowerBlue
-        ExcellentTrackBar3.ThumbHeight = 28
-        ExcellentTrackBar3.ThumbTextDecimalPlaces = 1
-        ExcellentTrackBar3.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
-        ExcellentTrackBar3.ThumbWidth = 38
-        ExcellentTrackBar3.Value = 1R
-        ' 
-        ' Label3
-        ' 
-        Label3.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
-        Label3.Dock = DockStyle.Bottom
-        Label3.Location = New Point(0, 159)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(150, 30)
-        Label3.TabIndex = 0
-        Label3.Text = "饱和度"
-        Label3.TextAlign = ContentAlignment.MiddleCenter
-        ' 
+        '
+        ' ETB_饱和度
+        '
+        ETB_饱和度.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        ETB_饱和度.Dock = DockStyle.Fill
+        ETB_饱和度.LabelColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_饱和度.LabelLineColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_饱和度.LabelLineLength = 20
+        TrackLabel16.Position = 3R
+        TrackLabel16.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel16.Text = "最高"
+        TrackLabel17.Position = 1R
+        TrackLabel17.Text = "原点"
+        TrackLabel18.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel18.Text = "最低"
+        ETB_饱和度.Labels.Add(TrackLabel16)
+        ETB_饱和度.Labels.Add(TrackLabel17)
+        ETB_饱和度.Labels.Add(TrackLabel18)
+        ETB_饱和度.LargeChange = 0.1R
+        ETB_饱和度.Location = New Point(0, 0)
+        ETB_饱和度.Margin = New Padding(2, 2, 2, 2)
+        ETB_饱和度.Maximum = 3R
+        ETB_饱和度.Name = "ETB_饱和度"
+        ETB_饱和度.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
+        ETB_饱和度.Padding = New Padding(0, 10, 0, 10)
+        ETB_饱和度.Size = New Size(150, 157)
+        ETB_饱和度.SmallChange = 0.1R
+        ETB_饱和度.TabIndex = 1
+        ETB_饱和度.ThumbBorderWidth = 0
+        ETB_饱和度.ThumbColor = Color.CornflowerBlue
+        ETB_饱和度.ThumbHeight = 28
+        ETB_饱和度.ThumbTextDecimalPlaces = 1
+        ETB_饱和度.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
+        ETB_饱和度.ThumbWidth = 38
+        ETB_饱和度.TrackColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_饱和度.TrackFillColor = Color.Transparent
+        ETB_饱和度.Value = 1R
+        '
         ' JustEmptyControl3
-        ' 
+        '
         JustEmptyControl3.Dock = DockStyle.Left
         JustEmptyControl3.Location = New Point(305, 0)
         JustEmptyControl3.Name = "JustEmptyControl3"
-        JustEmptyControl3.Size = New Size(5, 189)
+        JustEmptyControl3.Size = New Size(5, 199)
         JustEmptyControl3.TabIndex = 4
-        ' 
+        '
         ' Panel11
-        ' 
-        Panel11.Controls.Add(ExcellentTrackBar2)
-        Panel11.Controls.Add(Label2)
+        '
+        Panel11.Controls.Add(ETB_对比度)
+        Panel11.Controls.Add(MCK_启用对比度调整)
         Panel11.Dock = DockStyle.Left
         Panel11.Location = New Point(155, 0)
         Panel11.Name = "Panel11"
-        Panel11.Size = New Size(150, 189)
+        Panel11.Size = New Size(150, 199)
         Panel11.TabIndex = 3
-        ' 
-        ' ExcellentTrackBar2
-        ' 
-        ExcellentTrackBar2.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
-        ExcellentTrackBar2.Dock = DockStyle.Fill
-        ExcellentTrackBar2.LabelLineLength = 20
-        TrackLabel7.Position = 2R
-        TrackLabel7.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel7.Text = "最高"
-        TrackLabel8.Position = 1R
-        TrackLabel8.Text = "原点"
-        TrackLabel9.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel9.Text = "最低"
-        ExcellentTrackBar2.Labels.Add(TrackLabel7)
-        ExcellentTrackBar2.Labels.Add(TrackLabel8)
-        ExcellentTrackBar2.Labels.Add(TrackLabel9)
-        ExcellentTrackBar2.LargeChange = 0.1R
-        ExcellentTrackBar2.Location = New Point(0, 0)
-        ExcellentTrackBar2.Margin = New Padding(2, 2, 2, 2)
-        ExcellentTrackBar2.Maximum = 2R
-        ExcellentTrackBar2.Name = "ExcellentTrackBar2"
-        ExcellentTrackBar2.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
-        ExcellentTrackBar2.Padding = New Padding(0, 10, 0, 10)
-        ExcellentTrackBar2.Size = New Size(150, 159)
-        ExcellentTrackBar2.SmallChange = 0.1R
-        ExcellentTrackBar2.TabIndex = 1
-        ExcellentTrackBar2.ThumbBorderWidth = 0
-        ExcellentTrackBar2.ThumbColor = Color.OliveDrab
-        ExcellentTrackBar2.ThumbHeight = 28
-        ExcellentTrackBar2.ThumbTextDecimalPlaces = 1
-        ExcellentTrackBar2.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
-        ExcellentTrackBar2.ThumbWidth = 38
-        ExcellentTrackBar2.Value = 1R
-        ' 
-        ' Label2
-        ' 
-        Label2.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
-        Label2.Dock = DockStyle.Bottom
-        Label2.Location = New Point(0, 159)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(150, 30)
-        Label2.TabIndex = 0
-        Label2.Text = "对比度"
-        Label2.TextAlign = ContentAlignment.MiddleCenter
-        ' 
+        '
+        ' ETB_对比度
+        '
+        ETB_对比度.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        ETB_对比度.Dock = DockStyle.Fill
+        ETB_对比度.LabelColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_对比度.LabelLineColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_对比度.LabelLineLength = 20
+        TrackLabel19.Position = 2R
+        TrackLabel19.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel19.Text = "最高"
+        TrackLabel20.Position = 1R
+        TrackLabel20.Text = "原点"
+        TrackLabel21.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel21.Text = "最低"
+        ETB_对比度.Labels.Add(TrackLabel19)
+        ETB_对比度.Labels.Add(TrackLabel20)
+        ETB_对比度.Labels.Add(TrackLabel21)
+        ETB_对比度.LargeChange = 0.1R
+        ETB_对比度.Location = New Point(0, 0)
+        ETB_对比度.Margin = New Padding(2, 2, 2, 2)
+        ETB_对比度.Maximum = 2R
+        ETB_对比度.Name = "ETB_对比度"
+        ETB_对比度.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
+        ETB_对比度.Padding = New Padding(0, 10, 0, 10)
+        ETB_对比度.Size = New Size(150, 157)
+        ETB_对比度.SmallChange = 0.1R
+        ETB_对比度.TabIndex = 1
+        ETB_对比度.ThumbBorderWidth = 0
+        ETB_对比度.ThumbColor = Color.OliveDrab
+        ETB_对比度.ThumbHeight = 28
+        ETB_对比度.ThumbTextDecimalPlaces = 1
+        ETB_对比度.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
+        ETB_对比度.ThumbWidth = 38
+        ETB_对比度.TrackColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_对比度.TrackFillColor = Color.Transparent
+        ETB_对比度.Value = 1R
+        '
         ' JustEmptyControl2
-        ' 
+        '
         JustEmptyControl2.Dock = DockStyle.Left
         JustEmptyControl2.Location = New Point(150, 0)
         JustEmptyControl2.Name = "JustEmptyControl2"
-        JustEmptyControl2.Size = New Size(5, 189)
+        JustEmptyControl2.Size = New Size(5, 199)
         JustEmptyControl2.TabIndex = 2
-        ' 
+        '
         ' Panel10
-        ' 
-        Panel10.Controls.Add(ExcellentTrackBar1)
-        Panel10.Controls.Add(Label1)
+        '
+        Panel10.Controls.Add(ETB_亮度)
+        Panel10.Controls.Add(MCK_启用亮度调整)
         Panel10.Dock = DockStyle.Left
         Panel10.Location = New Point(0, 0)
         Panel10.Name = "Panel10"
-        Panel10.Size = New Size(150, 189)
+        Panel10.Size = New Size(150, 199)
         Panel10.TabIndex = 0
-        ' 
-        ' ExcellentTrackBar1
-        ' 
-        ExcellentTrackBar1.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
-        ExcellentTrackBar1.Dock = DockStyle.Fill
-        ExcellentTrackBar1.LabelLineLength = 20
-        TrackLabel10.Position = 1R
-        TrackLabel10.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel10.Text = "最亮"
-        TrackLabel11.Text = "原点"
-        TrackLabel12.Position = -1R
-        TrackLabel12.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
-        TrackLabel12.Text = "最暗"
-        ExcellentTrackBar1.Labels.Add(TrackLabel10)
-        ExcellentTrackBar1.Labels.Add(TrackLabel11)
-        ExcellentTrackBar1.Labels.Add(TrackLabel12)
-        ExcellentTrackBar1.LargeChange = 0.1R
-        ExcellentTrackBar1.Location = New Point(0, 0)
-        ExcellentTrackBar1.Margin = New Padding(2, 2, 2, 2)
-        ExcellentTrackBar1.Maximum = 1R
-        ExcellentTrackBar1.Minimum = -1R
-        ExcellentTrackBar1.Name = "ExcellentTrackBar1"
-        ExcellentTrackBar1.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
-        ExcellentTrackBar1.Padding = New Padding(0, 10, 0, 10)
-        ExcellentTrackBar1.Size = New Size(150, 159)
-        ExcellentTrackBar1.SmallChange = 0.1R
-        ExcellentTrackBar1.TabIndex = 1
-        ExcellentTrackBar1.ThumbBorderWidth = 0
-        ExcellentTrackBar1.ThumbColor = Color.IndianRed
-        ExcellentTrackBar1.ThumbHeight = 28
-        ExcellentTrackBar1.ThumbTextDecimalPlaces = 1
-        ExcellentTrackBar1.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
-        ExcellentTrackBar1.ThumbWidth = 38
-        ' 
-        ' Label1
-        ' 
-        Label1.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
-        Label1.Dock = DockStyle.Bottom
-        Label1.Location = New Point(0, 159)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(150, 30)
-        Label1.TabIndex = 0
-        Label1.Text = "亮度"
-        Label1.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' HtmlColorLabel11
-        ' 
-        HtmlColorLabel11.AutoSize = True
-        HtmlColorLabel11.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel11.Dock = DockStyle.Top
-        HtmlColorLabel11.Location = New Point(20, 436)
-        HtmlColorLabel11.Margin = New Padding(2)
-        HtmlColorLabel11.Name = "HtmlColorLabel11"
-        HtmlColorLabel11.Padding = New Padding(0, 20, 0, 5)
-        HtmlColorLabel11.Size = New Size(790, 50)
-        HtmlColorLabel11.TabIndex = 17
-        HtmlColorLabel11.Text = "<span style=""font-size:13"">简易调色</span>   <span style=""font-size:10pt; color:Gray"">高级调色去用达芬奇</span>"
-        ' 
+        '
+        ' ETB_亮度
+        '
+        ETB_亮度.BackColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        ETB_亮度.Dock = DockStyle.Fill
+        ETB_亮度.LabelColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_亮度.LabelLineColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_亮度.LabelLineLength = 20
+        TrackLabel22.Position = 1R
+        TrackLabel22.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel22.Text = "最亮"
+        TrackLabel23.Text = "原点"
+        TrackLabel24.Position = -1R
+        TrackLabel24.Side = LakeUI.ExcellentTrackBar.LabelSideEnum.TopOrLeft
+        TrackLabel24.Text = "最暗"
+        ETB_亮度.Labels.Add(TrackLabel22)
+        ETB_亮度.Labels.Add(TrackLabel23)
+        ETB_亮度.Labels.Add(TrackLabel24)
+        ETB_亮度.LargeChange = 0.1R
+        ETB_亮度.Location = New Point(0, 0)
+        ETB_亮度.Margin = New Padding(2, 2, 2, 2)
+        ETB_亮度.Maximum = 1R
+        ETB_亮度.Minimum = -1R
+        ETB_亮度.Name = "ETB_亮度"
+        ETB_亮度.Orientation = LakeUI.ExcellentTrackBar.TrackOrientationEnum.Vertical
+        ETB_亮度.Padding = New Padding(0, 10, 0, 10)
+        ETB_亮度.Size = New Size(150, 157)
+        ETB_亮度.SmallChange = 0.1R
+        ETB_亮度.TabIndex = 1
+        ETB_亮度.ThumbBorderWidth = 0
+        ETB_亮度.ThumbColor = Color.IndianRed
+        ETB_亮度.ThumbHeight = 28
+        ETB_亮度.ThumbTextDecimalPlaces = 1
+        ETB_亮度.ThumbTextMode = LakeUI.ExcellentTrackBar.ThumbTextModeEnum.Value
+        ETB_亮度.ThumbWidth = 38
+        ETB_亮度.TrackColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        ETB_亮度.TrackFillColor = Color.Transparent
+        '
+        ' HCL_简易调色
+        '
+        HCL_简易调色.AutoSize = True
+        HCL_简易调色.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_简易调色.Dock = DockStyle.Top
+        HCL_简易调色.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_简易调色.Location = New Point(20, 426)
+        HCL_简易调色.Margin = New Padding(2)
+        HCL_简易调色.Name = "HCL_简易调色"
+        HCL_简易调色.Padding = New Padding(0, 20, 0, 5)
+        HCL_简易调色.Size = New Size(802, 50)
+        HCL_简易调色.TabIndex = 17
+        HCL_简易调色.Text = "<span style=""font-size:13; color:Silver"">简易调色</span>   高级调色去用达芬奇，勾选才会使用"
+        '
         ' Panel8
-        ' 
-        Panel8.Controls.Add(HtmlColorLabel12)
-        Panel8.Controls.Add(ModernComboBox9)
+        '
+        Panel8.Controls.Add(HCL_操作方式)
+        Panel8.Controls.Add(MCB_色彩管理_色彩空间操作方式)
         Panel8.Dock = DockStyle.Top
-        Panel8.Location = New Point(20, 394)
+        Panel8.Location = New Point(20, 384)
         Panel8.Name = "Panel8"
         Panel8.Padding = New Padding(0, 10, 0, 0)
-        Panel8.Size = New Size(790, 42)
+        Panel8.Size = New Size(802, 42)
         Panel8.TabIndex = 16
-        ' 
-        ' HtmlColorLabel12
-        ' 
-        HtmlColorLabel12.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel12.Dock = DockStyle.Fill
-        HtmlColorLabel12.ForeColor = Color.Gray
-        HtmlColorLabel12.Location = New Point(175, 10)
-        HtmlColorLabel12.Margin = New Padding(2)
-        HtmlColorLabel12.Name = "HtmlColorLabel12"
-        HtmlColorLabel12.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel12.Size = New Size(615, 32)
-        HtmlColorLabel12.TabIndex = 1
-        HtmlColorLabel12.Text = "<span style=""font-size:10pt; color:Silver"">操作方式</span>   对于标准的转换操作应该选择 <span style=""font-size:10pt; color:IndianRed"">写入元数据并转换</span>"
-        HtmlColorLabel12.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' ModernComboBox9
-        ' 
-        ModernComboBox9.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        ModernComboBox9.BorderColorFocus = Color.Silver
-        ModernComboBox9.BorderRadius = 10
-        ModernComboBox9.BorderSize = 0
-        ModernComboBox9.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        ModernComboBox9.Dock = DockStyle.Left
-        ModernComboBox9.DropDownBorderSize = 2
-        ModernComboBox9.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        ModernComboBox9.DropDownPadding = New Padding(10)
-        ModernComboBox9.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        ModernComboBox9.Location = New Point(0, 10)
-        ModernComboBox9.Margin = New Padding(2, 2, 2, 2)
-        ModernComboBox9.Name = "ModernComboBox9"
-        ModernComboBox9.Padding = New Padding(10, 0, 10, 0)
-        ModernComboBox9.Size = New Size(175, 32)
-        ModernComboBox9.TabIndex = 0
-        ModernComboBox9.ToolTipBorderSize = 2
-        ModernComboBox9.ToolTipGap = 10
-        ModernComboBox9.ToolTipMaxWidth = 350
-        ModernComboBox9.ToolTipPadding = New Padding(15)
-        ModernComboBox9.WaterText = "选择操作方式"
-        ' 
+        '
+        ' HCL_操作方式
+        '
+        HCL_操作方式.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_操作方式.Dock = DockStyle.Fill
+        HCL_操作方式.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_操作方式.Location = New Point(175, 10)
+        HCL_操作方式.Margin = New Padding(2)
+        HCL_操作方式.Name = "HCL_操作方式"
+        HCL_操作方式.Padding = New Padding(10, 0, 0, 0)
+        HCL_操作方式.Size = New Size(627, 32)
+        HCL_操作方式.TabIndex = 1
+        HCL_操作方式.Text = "<span style=""font-size:10pt; color:Silver"">操作方式</span>   对于标准的转换操作应该选择 <span style=""font-size:10pt; color:IndianRed"">写入元数据并转换</span>"
+        HCL_操作方式.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_色彩管理_色彩空间操作方式
+        '
+        MCB_色彩管理_色彩空间操作方式.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩空间操作方式.BorderRadius = 10
+        MCB_色彩管理_色彩空间操作方式.BorderSize = 0
+        MCB_色彩管理_色彩空间操作方式.Dock = DockStyle.Left
+        MCB_色彩管理_色彩空间操作方式.DropDownBackdropBlurPasses = 2
+        MCB_色彩管理_色彩空间操作方式.DropDownBackdropBlurRadius = 30
+        MCB_色彩管理_色彩空间操作方式.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_色彩管理_色彩空间操作方式.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩空间操作方式.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_色彩管理_色彩空间操作方式.DropDownPadding = New Padding(10)
+        MCB_色彩管理_色彩空间操作方式.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩空间操作方式.DropDownSelectedForeColor = Color.White
+        MCB_色彩管理_色彩空间操作方式.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩空间操作方式.Items.Add("")
+        MCB_色彩管理_色彩空间操作方式.Items.Add("写入元数据并转换")
+        MCB_色彩管理_色彩空间操作方式.Items.Add("仅写入元数据")
+        MCB_色彩管理_色彩空间操作方式.Items.Add("仅转换")
+        MCB_色彩管理_色彩空间操作方式.Location = New Point(0, 10)
+        MCB_色彩管理_色彩空间操作方式.Margin = New Padding(2, 2, 2, 2)
+        MCB_色彩管理_色彩空间操作方式.Name = "MCB_色彩管理_色彩空间操作方式"
+        MCB_色彩管理_色彩空间操作方式.Padding = New Padding(10, 0, 10, 0)
+        MCB_色彩管理_色彩空间操作方式.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩空间操作方式.Size = New Size(175, 32)
+        MCB_色彩管理_色彩空间操作方式.TabIndex = 0
+        MCB_色彩管理_色彩空间操作方式.ToolTipGap = -1
+        MCB_色彩管理_色彩空间操作方式.ToolTipMaxWidth = 350
+        MCB_色彩管理_色彩空间操作方式.ToolTipPadding = New Padding(15)
+        MCB_色彩管理_色彩空间操作方式.WaterText = "选择操作方式"
+        MCB_色彩管理_色彩空间操作方式.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
         ' Panel7
-        ' 
-        Panel7.Controls.Add(HtmlColorLabel10)
-        Panel7.Controls.Add(ModernComboBox8)
+        '
+        Panel7.Controls.Add(HCL_色调映射算法)
+        Panel7.Controls.Add(MCB_色彩管理_色调映射算法)
         Panel7.Dock = DockStyle.Top
-        Panel7.Location = New Point(20, 352)
+        Panel7.Location = New Point(20, 342)
         Panel7.Name = "Panel7"
         Panel7.Padding = New Padding(0, 10, 0, 0)
-        Panel7.Size = New Size(790, 42)
+        Panel7.Size = New Size(802, 42)
         Panel7.TabIndex = 14
-        ' 
-        ' HtmlColorLabel10
-        ' 
-        HtmlColorLabel10.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel10.Dock = DockStyle.Fill
-        HtmlColorLabel10.ForeColor = Color.Gray
-        HtmlColorLabel10.Location = New Point(175, 10)
-        HtmlColorLabel10.Margin = New Padding(2)
-        HtmlColorLabel10.Name = "HtmlColorLabel10"
-        HtmlColorLabel10.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel10.Size = New Size(615, 32)
-        HtmlColorLabel10.TabIndex = 1
-        HtmlColorLabel10.Text = "<span style=""font-size:10pt; color:Silver"">色调映射算法</span>   <span style=""font-size:10pt; color:Goldenrod"">可选</span>   仅限 <span style=""font-size:10pt; color:IndianRed"">libplacebo</span> 使用"
-        HtmlColorLabel10.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' ModernComboBox8
-        ' 
-        ModernComboBox8.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        ModernComboBox8.BorderColorFocus = Color.Silver
-        ModernComboBox8.BorderRadius = 10
-        ModernComboBox8.BorderSize = 0
-        ModernComboBox8.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        ModernComboBox8.Dock = DockStyle.Left
-        ModernComboBox8.DropDownBorderSize = 2
-        ModernComboBox8.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        ModernComboBox8.DropDownPadding = New Padding(10)
-        ModernComboBox8.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        ModernComboBox8.Location = New Point(0, 10)
-        ModernComboBox8.Margin = New Padding(2, 2, 2, 2)
-        ModernComboBox8.Name = "ModernComboBox8"
-        ModernComboBox8.Padding = New Padding(10, 0, 10, 0)
-        ModernComboBox8.Size = New Size(175, 32)
-        ModernComboBox8.TabIndex = 0
-        ModernComboBox8.ToolTipBorderSize = 2
-        ModernComboBox8.ToolTipGap = 10
-        ModernComboBox8.ToolTipMaxWidth = 350
-        ModernComboBox8.ToolTipPadding = New Padding(15)
-        ModernComboBox8.WaterText = "tonemapping"
-        ' 
+        '
+        ' HCL_色调映射算法
+        '
+        HCL_色调映射算法.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_色调映射算法.Dock = DockStyle.Fill
+        HCL_色调映射算法.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_色调映射算法.Location = New Point(175, 10)
+        HCL_色调映射算法.Margin = New Padding(2)
+        HCL_色调映射算法.Name = "HCL_色调映射算法"
+        HCL_色调映射算法.Padding = New Padding(10, 0, 0, 0)
+        HCL_色调映射算法.Size = New Size(627, 32)
+        HCL_色调映射算法.TabIndex = 1
+        HCL_色调映射算法.Text = "<span style=""color:Silver"">色调映射算法</span>   <span style=""color:Goldenrod"">可选</span>   仅限 <span style=""color:IndianRed"">libplacebo</span> 使用"
+        HCL_色调映射算法.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_色彩管理_色调映射算法
+        '
+        MCB_色彩管理_色调映射算法.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色调映射算法.BorderRadius = 10
+        MCB_色彩管理_色调映射算法.BorderSize = 0
+        MCB_色彩管理_色调映射算法.Dock = DockStyle.Left
+        MCB_色彩管理_色调映射算法.DropDownBackdropBlurPasses = 2
+        MCB_色彩管理_色调映射算法.DropDownBackdropBlurRadius = 30
+        MCB_色彩管理_色调映射算法.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_色彩管理_色调映射算法.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色调映射算法.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_色彩管理_色调映射算法.DropDownPadding = New Padding(10)
+        MCB_色彩管理_色调映射算法.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色调映射算法.DropDownSelectedForeColor = Color.White
+        MCB_色彩管理_色调映射算法.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色调映射算法.Items.Add("")
+        MCB_色彩管理_色调映射算法.Items.Add("auto")
+        MCB_色彩管理_色调映射算法.Items.Add("clip")
+        MCB_色彩管理_色调映射算法.Items.Add("st2094-40")
+        MCB_色彩管理_色调映射算法.Items.Add("st2094-10")
+        MCB_色彩管理_色调映射算法.Items.Add("bt.2390")
+        MCB_色彩管理_色调映射算法.Items.Add("bt.2446a")
+        MCB_色彩管理_色调映射算法.Items.Add("spline")
+        MCB_色彩管理_色调映射算法.Items.Add("reinhard")
+        MCB_色彩管理_色调映射算法.Items.Add("mobius")
+        MCB_色彩管理_色调映射算法.Items.Add("hable")
+        MCB_色彩管理_色调映射算法.Items.Add("gamma")
+        MCB_色彩管理_色调映射算法.Items.Add("linear")
+        MCB_色彩管理_色调映射算法.Location = New Point(0, 10)
+        MCB_色彩管理_色调映射算法.Margin = New Padding(2, 2, 2, 2)
+        MCB_色彩管理_色调映射算法.Name = "MCB_色彩管理_色调映射算法"
+        MCB_色彩管理_色调映射算法.Padding = New Padding(10, 0, 10, 0)
+        MCB_色彩管理_色调映射算法.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色调映射算法.Size = New Size(175, 32)
+        MCB_色彩管理_色调映射算法.TabIndex = 0
+        MCB_色彩管理_色调映射算法.ToolTipGap = -1
+        MCB_色彩管理_色调映射算法.ToolTipMaxWidth = 350
+        MCB_色彩管理_色调映射算法.ToolTipPadding = New Padding(15)
+        MCB_色彩管理_色调映射算法.WaterText = "tonemapping"
+        MCB_色彩管理_色调映射算法.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
         ' Panel6
-        ' 
-        Panel6.Controls.Add(HtmlColorLabel9)
-        Panel6.Controls.Add(ModernComboBox7)
+        '
+        Panel6.Controls.Add(HCL_色彩范围)
+        Panel6.Controls.Add(MCB_色彩管理_色彩范围)
         Panel6.Dock = DockStyle.Top
-        Panel6.Location = New Point(20, 310)
+        Panel6.Location = New Point(20, 300)
         Panel6.Name = "Panel6"
         Panel6.Padding = New Padding(0, 10, 0, 0)
-        Panel6.Size = New Size(790, 42)
+        Panel6.Size = New Size(802, 42)
         Panel6.TabIndex = 13
-        ' 
-        ' HtmlColorLabel9
-        ' 
-        HtmlColorLabel9.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel9.Dock = DockStyle.Fill
-        HtmlColorLabel9.ForeColor = Color.Gray
-        HtmlColorLabel9.Location = New Point(175, 10)
-        HtmlColorLabel9.Margin = New Padding(2)
-        HtmlColorLabel9.Name = "HtmlColorLabel9"
-        HtmlColorLabel9.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel9.Size = New Size(615, 32)
-        HtmlColorLabel9.TabIndex = 1
-        HtmlColorLabel9.Text = "<span style=""font-size:10pt; color:Silver"">色彩范围</span>   实际上大多数视频是有限范围而不是完全范围"
-        HtmlColorLabel9.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' ModernComboBox7
-        ' 
-        ModernComboBox7.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        ModernComboBox7.BorderColorFocus = Color.Silver
-        ModernComboBox7.BorderRadius = 10
-        ModernComboBox7.BorderSize = 0
-        ModernComboBox7.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        ModernComboBox7.Dock = DockStyle.Left
-        ModernComboBox7.DropDownBorderSize = 2
-        ModernComboBox7.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        ModernComboBox7.DropDownPadding = New Padding(10)
-        ModernComboBox7.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        ModernComboBox7.Location = New Point(0, 10)
-        ModernComboBox7.Margin = New Padding(2, 2, 2, 2)
-        ModernComboBox7.Name = "ModernComboBox7"
-        ModernComboBox7.Padding = New Padding(10, 0, 10, 0)
-        ModernComboBox7.Size = New Size(175, 32)
-        ModernComboBox7.TabIndex = 0
-        ModernComboBox7.ToolTipBorderSize = 2
-        ModernComboBox7.ToolTipGap = 10
-        ModernComboBox7.ToolTipMaxWidth = 350
-        ModernComboBox7.ToolTipPadding = New Padding(15)
-        ModernComboBox7.WaterText = "color_range"
-        ' 
+        '
+        ' HCL_色彩范围
+        '
+        HCL_色彩范围.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_色彩范围.Dock = DockStyle.Fill
+        HCL_色彩范围.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_色彩范围.Location = New Point(175, 10)
+        HCL_色彩范围.Margin = New Padding(2)
+        HCL_色彩范围.Name = "HCL_色彩范围"
+        HCL_色彩范围.Padding = New Padding(10, 0, 0, 0)
+        HCL_色彩范围.Size = New Size(627, 32)
+        HCL_色彩范围.TabIndex = 1
+        HCL_色彩范围.Text = "<span style=""color:Silver"">色彩范围</span>   实际上大多数视频是有限范围而不是完全范围"
+        HCL_色彩范围.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_色彩管理_色彩范围
+        '
+        MCB_色彩管理_色彩范围.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩范围.BorderRadius = 10
+        MCB_色彩管理_色彩范围.BorderSize = 0
+        MCB_色彩管理_色彩范围.Dock = DockStyle.Left
+        MCB_色彩管理_色彩范围.DropDownBackdropBlurPasses = 2
+        MCB_色彩管理_色彩范围.DropDownBackdropBlurRadius = 30
+        MCB_色彩管理_色彩范围.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_色彩管理_色彩范围.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩范围.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_色彩管理_色彩范围.DropDownPadding = New Padding(10)
+        MCB_色彩管理_色彩范围.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩范围.DropDownSelectedForeColor = Color.White
+        MCB_色彩管理_色彩范围.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩范围.Items.Add("")
+        MCB_色彩管理_色彩范围.Items.Add("tv 有限 16~235")
+        MCB_色彩管理_色彩范围.Items.Add("pc 全范围 0~255")
+        MCB_色彩管理_色彩范围.Location = New Point(0, 10)
+        MCB_色彩管理_色彩范围.Margin = New Padding(2, 2, 2, 2)
+        MCB_色彩管理_色彩范围.Name = "MCB_色彩管理_色彩范围"
+        MCB_色彩管理_色彩范围.Padding = New Padding(10, 0, 10, 0)
+        MCB_色彩管理_色彩范围.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色彩范围.Size = New Size(175, 32)
+        MCB_色彩管理_色彩范围.TabIndex = 0
+        MCB_色彩管理_色彩范围.ToolTipGap = -1
+        MCB_色彩管理_色彩范围.ToolTipMaxWidth = 350
+        MCB_色彩管理_色彩范围.ToolTipPadding = New Padding(15)
+        MCB_色彩管理_色彩范围.WaterText = "color_range"
+        MCB_色彩管理_色彩范围.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
         ' Panel5
-        ' 
-        Panel5.Controls.Add(HtmlColorLabel8)
-        Panel5.Controls.Add(ModernComboBox6)
+        '
+        Panel5.Controls.Add(HCL_传输特性)
+        Panel5.Controls.Add(MCB_色彩管理_传输特性)
         Panel5.Dock = DockStyle.Top
-        Panel5.Location = New Point(20, 268)
+        Panel5.Location = New Point(20, 258)
         Panel5.Name = "Panel5"
         Panel5.Padding = New Padding(0, 10, 0, 0)
-        Panel5.Size = New Size(790, 42)
+        Panel5.Size = New Size(802, 42)
         Panel5.TabIndex = 12
-        ' 
-        ' HtmlColorLabel8
-        ' 
-        HtmlColorLabel8.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel8.Dock = DockStyle.Fill
-        HtmlColorLabel8.ForeColor = Color.Gray
-        HtmlColorLabel8.Location = New Point(175, 10)
-        HtmlColorLabel8.Margin = New Padding(2)
-        HtmlColorLabel8.Name = "HtmlColorLabel8"
-        HtmlColorLabel8.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel8.Size = New Size(615, 32)
-        HtmlColorLabel8.TabIndex = 1
-        HtmlColorLabel8.Text = "<span style=""font-size:10pt; color:Silver"">传输特性</span>   描述数值与实际光亮度之间的非线性关系"
-        HtmlColorLabel8.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' ModernComboBox6
-        ' 
-        ModernComboBox6.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        ModernComboBox6.BorderColorFocus = Color.Silver
-        ModernComboBox6.BorderRadius = 10
-        ModernComboBox6.BorderSize = 0
-        ModernComboBox6.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        ModernComboBox6.Dock = DockStyle.Left
-        ModernComboBox6.DropDownBorderSize = 2
-        ModernComboBox6.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        ModernComboBox6.DropDownPadding = New Padding(10)
-        ModernComboBox6.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        ModernComboBox6.Location = New Point(0, 10)
-        ModernComboBox6.Margin = New Padding(2, 2, 2, 2)
-        ModernComboBox6.Name = "ModernComboBox6"
-        ModernComboBox6.Padding = New Padding(10, 0, 10, 0)
-        ModernComboBox6.Size = New Size(175, 32)
-        ModernComboBox6.TabIndex = 0
-        ModernComboBox6.ToolTipBorderSize = 2
-        ModernComboBox6.ToolTipGap = 10
-        ModernComboBox6.ToolTipMaxWidth = 350
-        ModernComboBox6.ToolTipPadding = New Padding(15)
-        ModernComboBox6.WaterText = "color_trc"
-        ' 
+        '
+        ' HCL_传输特性
+        '
+        HCL_传输特性.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_传输特性.Dock = DockStyle.Fill
+        HCL_传输特性.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_传输特性.Location = New Point(175, 10)
+        HCL_传输特性.Margin = New Padding(2)
+        HCL_传输特性.Name = "HCL_传输特性"
+        HCL_传输特性.Padding = New Padding(10, 0, 0, 0)
+        HCL_传输特性.Size = New Size(627, 32)
+        HCL_传输特性.TabIndex = 1
+        HCL_传输特性.Text = "<span style=""color:Silver"">传输特性</span>   描述数值与实际光亮度之间的非线性关系"
+        HCL_传输特性.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_色彩管理_传输特性
+        '
+        MCB_色彩管理_传输特性.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_传输特性.BorderRadius = 10
+        MCB_色彩管理_传输特性.BorderSize = 0
+        MCB_色彩管理_传输特性.Dock = DockStyle.Left
+        MCB_色彩管理_传输特性.DropDownBackdropBlurPasses = 2
+        MCB_色彩管理_传输特性.DropDownBackdropBlurRadius = 30
+        MCB_色彩管理_传输特性.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_色彩管理_传输特性.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_传输特性.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_色彩管理_传输特性.DropDownPadding = New Padding(10)
+        MCB_色彩管理_传输特性.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_传输特性.DropDownSelectedForeColor = Color.White
+        MCB_色彩管理_传输特性.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_传输特性.Items.Add("")
+        MCB_色彩管理_传输特性.Items.Add("auto")
+        MCB_色彩管理_传输特性.Items.Add("bt709")
+        MCB_色彩管理_传输特性.Items.Add("bt2020-10")
+        MCB_色彩管理_传输特性.Items.Add("bt2020-12")
+        MCB_色彩管理_传输特性.Items.Add("smpte2084")
+        MCB_色彩管理_传输特性.Items.Add("bt470m")
+        MCB_色彩管理_传输特性.Items.Add("bt470bg")
+        MCB_色彩管理_传输特性.Items.Add("log")
+        MCB_色彩管理_传输特性.Items.Add("log_sqrt")
+        MCB_色彩管理_传输特性.Items.Add("linear")
+        MCB_色彩管理_传输特性.Items.Add("bt1361e")
+        MCB_色彩管理_传输特性.Items.Add("iec61966-2-1")
+        MCB_色彩管理_传输特性.Items.Add("iec61966-2-4")
+        MCB_色彩管理_传输特性.Items.Add("smpte170m")
+        MCB_色彩管理_传输特性.Items.Add("smpte240m")
+        MCB_色彩管理_传输特性.Items.Add("gamma22")
+        MCB_色彩管理_传输特性.Items.Add("gamma28")
+        MCB_色彩管理_传输特性.Items.Add("arib-std-b67")
+        MCB_色彩管理_传输特性.Location = New Point(0, 10)
+        MCB_色彩管理_传输特性.Margin = New Padding(2, 2, 2, 2)
+        MCB_色彩管理_传输特性.Name = "MCB_色彩管理_传输特性"
+        MCB_色彩管理_传输特性.Padding = New Padding(10, 0, 10, 0)
+        MCB_色彩管理_传输特性.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_传输特性.Size = New Size(175, 32)
+        MCB_色彩管理_传输特性.TabIndex = 0
+        MCB_色彩管理_传输特性.ToolTipGap = -1
+        MCB_色彩管理_传输特性.ToolTipMaxWidth = 350
+        MCB_色彩管理_传输特性.ToolTipPadding = New Padding(15)
+        MCB_色彩管理_传输特性.WaterText = "color_trc"
+        MCB_色彩管理_传输特性.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
         ' Panel4
-        ' 
-        Panel4.Controls.Add(HtmlColorLabel7)
-        Panel4.Controls.Add(ModernComboBox5)
+        '
+        Panel4.Controls.Add(HCL_色域)
+        Panel4.Controls.Add(MCB_色彩管理_色域)
         Panel4.Dock = DockStyle.Top
-        Panel4.Location = New Point(20, 226)
+        Panel4.Location = New Point(20, 216)
         Panel4.Name = "Panel4"
         Panel4.Padding = New Padding(0, 10, 0, 0)
-        Panel4.Size = New Size(790, 42)
+        Panel4.Size = New Size(802, 42)
         Panel4.TabIndex = 11
-        ' 
-        ' HtmlColorLabel7
-        ' 
-        HtmlColorLabel7.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel7.Dock = DockStyle.Fill
-        HtmlColorLabel7.ForeColor = Color.Gray
-        HtmlColorLabel7.Location = New Point(175, 10)
-        HtmlColorLabel7.Margin = New Padding(2)
-        HtmlColorLabel7.Name = "HtmlColorLabel7"
-        HtmlColorLabel7.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel7.Size = New Size(615, 32)
-        HtmlColorLabel7.TabIndex = 1
-        HtmlColorLabel7.Text = "<span style=""font-size:10pt; color:Silver"">色域</span>   指定采用哪一套色彩标准"
-        HtmlColorLabel7.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' ModernComboBox5
-        ' 
-        ModernComboBox5.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        ModernComboBox5.BorderColorFocus = Color.Silver
-        ModernComboBox5.BorderRadius = 10
-        ModernComboBox5.BorderSize = 0
-        ModernComboBox5.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        ModernComboBox5.Dock = DockStyle.Left
-        ModernComboBox5.DropDownBorderSize = 2
-        ModernComboBox5.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        ModernComboBox5.DropDownPadding = New Padding(10)
-        ModernComboBox5.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        ModernComboBox5.Location = New Point(0, 10)
-        ModernComboBox5.Margin = New Padding(2, 2, 2, 2)
-        ModernComboBox5.Name = "ModernComboBox5"
-        ModernComboBox5.Padding = New Padding(10, 0, 10, 0)
-        ModernComboBox5.Size = New Size(175, 32)
-        ModernComboBox5.TabIndex = 0
-        ModernComboBox5.ToolTipBorderSize = 2
-        ModernComboBox5.ToolTipGap = 10
-        ModernComboBox5.ToolTipMaxWidth = 350
-        ModernComboBox5.ToolTipPadding = New Padding(15)
-        ModernComboBox5.WaterText = "color_primaries"
-        ' 
+        '
+        ' HCL_色域
+        '
+        HCL_色域.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_色域.Dock = DockStyle.Fill
+        HCL_色域.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_色域.Location = New Point(175, 10)
+        HCL_色域.Margin = New Padding(2)
+        HCL_色域.Name = "HCL_色域"
+        HCL_色域.Padding = New Padding(10, 0, 0, 0)
+        HCL_色域.Size = New Size(627, 32)
+        HCL_色域.TabIndex = 1
+        HCL_色域.Text = "<span style=""color:Silver"">色域</span>   指定采用哪一套色彩标准"
+        HCL_色域.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_色彩管理_色域
+        '
+        MCB_色彩管理_色域.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色域.BorderRadius = 10
+        MCB_色彩管理_色域.BorderSize = 0
+        MCB_色彩管理_色域.Dock = DockStyle.Left
+        MCB_色彩管理_色域.DropDownBackdropBlurPasses = 2
+        MCB_色彩管理_色域.DropDownBackdropBlurRadius = 30
+        MCB_色彩管理_色域.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_色彩管理_色域.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色域.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_色彩管理_色域.DropDownPadding = New Padding(10)
+        MCB_色彩管理_色域.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色域.DropDownSelectedForeColor = Color.White
+        MCB_色彩管理_色域.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色域.Items.Add("")
+        MCB_色彩管理_色域.Items.Add("auto")
+        MCB_色彩管理_色域.Items.Add("bt709")
+        MCB_色彩管理_色域.Items.Add("bt2020")
+        MCB_色彩管理_色域.Items.Add("smpte428")
+        MCB_色彩管理_色域.Items.Add("smpte431")
+        MCB_色彩管理_色域.Items.Add("smpte432")
+        MCB_色彩管理_色域.Items.Add("film")
+        MCB_色彩管理_色域.Items.Add("bt470m")
+        MCB_色彩管理_色域.Items.Add("bt470bg")
+        MCB_色彩管理_色域.Items.Add("smpte170m")
+        MCB_色彩管理_色域.Items.Add("smpte240m")
+        MCB_色彩管理_色域.Items.Add("jedec-p22")
+        MCB_色彩管理_色域.Items.Add("ebu3213")
+        MCB_色彩管理_色域.Location = New Point(0, 10)
+        MCB_色彩管理_色域.Margin = New Padding(2, 2, 2, 2)
+        MCB_色彩管理_色域.Name = "MCB_色彩管理_色域"
+        MCB_色彩管理_色域.Padding = New Padding(10, 0, 10, 0)
+        MCB_色彩管理_色域.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_色域.Size = New Size(175, 32)
+        MCB_色彩管理_色域.TabIndex = 0
+        MCB_色彩管理_色域.ToolTipGap = -1
+        MCB_色彩管理_色域.ToolTipMaxWidth = 350
+        MCB_色彩管理_色域.ToolTipPadding = New Padding(15)
+        MCB_色彩管理_色域.WaterText = "color_primaries"
+        MCB_色彩管理_色域.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
         ' Panel3
-        ' 
-        Panel3.Controls.Add(HtmlColorLabel5)
-        Panel3.Controls.Add(ModernComboBox3)
+        '
+        Panel3.Controls.Add(HCL_矩阵系数)
+        Panel3.Controls.Add(MCB_色彩管理_矩阵系数)
         Panel3.Dock = DockStyle.Top
-        Panel3.Location = New Point(20, 184)
+        Panel3.Location = New Point(20, 174)
         Panel3.Name = "Panel3"
         Panel3.Padding = New Padding(0, 10, 0, 0)
-        Panel3.Size = New Size(790, 42)
+        Panel3.Size = New Size(802, 42)
         Panel3.TabIndex = 10
-        ' 
-        ' HtmlColorLabel5
-        ' 
-        HtmlColorLabel5.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel5.Dock = DockStyle.Fill
-        HtmlColorLabel5.ForeColor = Color.Gray
-        HtmlColorLabel5.Location = New Point(175, 10)
-        HtmlColorLabel5.Margin = New Padding(2)
-        HtmlColorLabel5.Name = "HtmlColorLabel5"
-        HtmlColorLabel5.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel5.Size = New Size(615, 32)
-        HtmlColorLabel5.TabIndex = 1
-        HtmlColorLabel5.Text = "<span style=""font-size:10pt; color:Silver"">矩阵系数 / 颜色格式</span>   决定了 <span style=""font-size:10pt; color:MediumPurple"">亮度和色度</span> 的分配方式"
-        HtmlColorLabel5.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' ModernComboBox3
-        ' 
-        ModernComboBox3.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        ModernComboBox3.BorderColorFocus = Color.Silver
-        ModernComboBox3.BorderRadius = 10
-        ModernComboBox3.BorderSize = 0
-        ModernComboBox3.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        ModernComboBox3.Dock = DockStyle.Left
-        ModernComboBox3.DropDownBorderSize = 2
-        ModernComboBox3.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        ModernComboBox3.DropDownPadding = New Padding(10)
-        ModernComboBox3.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        ModernComboBox3.Location = New Point(0, 10)
-        ModernComboBox3.Margin = New Padding(2, 2, 2, 2)
-        ModernComboBox3.Name = "ModernComboBox3"
-        ModernComboBox3.Padding = New Padding(10, 0, 10, 0)
-        ModernComboBox3.Size = New Size(175, 32)
-        ModernComboBox3.TabIndex = 0
-        ModernComboBox3.ToolTipBorderSize = 2
-        ModernComboBox3.ToolTipGap = 10
-        ModernComboBox3.ToolTipMaxWidth = 350
-        ModernComboBox3.ToolTipPadding = New Padding(15)
-        ModernComboBox3.WaterText = "colorspace"
-        ' 
+        '
+        ' HCL_矩阵系数
+        '
+        HCL_矩阵系数.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_矩阵系数.Dock = DockStyle.Fill
+        HCL_矩阵系数.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_矩阵系数.Location = New Point(175, 10)
+        HCL_矩阵系数.Margin = New Padding(2)
+        HCL_矩阵系数.Name = "HCL_矩阵系数"
+        HCL_矩阵系数.Padding = New Padding(10, 0, 0, 0)
+        HCL_矩阵系数.Size = New Size(627, 32)
+        HCL_矩阵系数.TabIndex = 1
+        HCL_矩阵系数.Text = "<span style=""color:Silver"">矩阵系数 / 颜色格式</span>   决定了 <span style=""color:MediumPurple"">亮度和色度</span> 的分配方式"
+        HCL_矩阵系数.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_色彩管理_矩阵系数
+        '
+        MCB_色彩管理_矩阵系数.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_矩阵系数.BorderRadius = 10
+        MCB_色彩管理_矩阵系数.BorderSize = 0
+        MCB_色彩管理_矩阵系数.Dock = DockStyle.Left
+        MCB_色彩管理_矩阵系数.DropDownBackdropBlurPasses = 2
+        MCB_色彩管理_矩阵系数.DropDownBackdropBlurRadius = 30
+        MCB_色彩管理_矩阵系数.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_色彩管理_矩阵系数.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_矩阵系数.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_色彩管理_矩阵系数.DropDownPadding = New Padding(10)
+        MCB_色彩管理_矩阵系数.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_矩阵系数.DropDownSelectedForeColor = Color.White
+        MCB_色彩管理_矩阵系数.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_矩阵系数.Items.Add("")
+        MCB_色彩管理_矩阵系数.Items.Add("auto")
+        MCB_色彩管理_矩阵系数.Items.Add("bt709")
+        MCB_色彩管理_矩阵系数.Items.Add("bt2020nc")
+        MCB_色彩管理_矩阵系数.Items.Add("bt2020c")
+        MCB_色彩管理_矩阵系数.Items.Add("rgb")
+        MCB_色彩管理_矩阵系数.Items.Add("gbr")
+        MCB_色彩管理_矩阵系数.Items.Add("bt470bg")
+        MCB_色彩管理_矩阵系数.Items.Add("smpte170m")
+        MCB_色彩管理_矩阵系数.Items.Add("smpte240m")
+        MCB_色彩管理_矩阵系数.Items.Add("fcc")
+        MCB_色彩管理_矩阵系数.Items.Add("ictcp")
+        MCB_色彩管理_矩阵系数.Items.Add("ycgco")
+        MCB_色彩管理_矩阵系数.Items.Add("xyz")
+        MCB_色彩管理_矩阵系数.Location = New Point(0, 10)
+        MCB_色彩管理_矩阵系数.Margin = New Padding(2, 2, 2, 2)
+        MCB_色彩管理_矩阵系数.Name = "MCB_色彩管理_矩阵系数"
+        MCB_色彩管理_矩阵系数.Padding = New Padding(10, 0, 10, 0)
+        MCB_色彩管理_矩阵系数.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_矩阵系数.Size = New Size(175, 32)
+        MCB_色彩管理_矩阵系数.TabIndex = 0
+        MCB_色彩管理_矩阵系数.ToolTipGap = -1
+        MCB_色彩管理_矩阵系数.ToolTipMaxWidth = 350
+        MCB_色彩管理_矩阵系数.ToolTipPadding = New Padding(15)
+        MCB_色彩管理_矩阵系数.WaterText = "colorspace"
+        MCB_色彩管理_矩阵系数.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
         ' Panel1
-        ' 
-        Panel1.Controls.Add(HtmlColorLabel6)
-        Panel1.Controls.Add(ModernComboBox4)
+        '
+        Panel1.Controls.Add(HCL_选择滤镜)
+        Panel1.Controls.Add(MCB_色彩管理_选择滤镜)
         Panel1.Dock = DockStyle.Top
-        Panel1.Location = New Point(20, 142)
+        Panel1.Location = New Point(20, 132)
         Panel1.Name = "Panel1"
         Panel1.Padding = New Padding(0, 10, 0, 0)
-        Panel1.Size = New Size(790, 42)
+        Panel1.Size = New Size(802, 42)
         Panel1.TabIndex = 9
-        ' 
-        ' HtmlColorLabel6
-        ' 
-        HtmlColorLabel6.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel6.Dock = DockStyle.Fill
-        HtmlColorLabel6.ForeColor = Color.Gray
-        HtmlColorLabel6.Location = New Point(175, 10)
-        HtmlColorLabel6.Margin = New Padding(2)
-        HtmlColorLabel6.Name = "HtmlColorLabel6"
-        HtmlColorLabel6.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel6.Size = New Size(615, 32)
-        HtmlColorLabel6.TabIndex = 1
-        HtmlColorLabel6.Text = resources.GetString("HtmlColorLabel6.Text")
-        HtmlColorLabel6.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' ModernComboBox4
-        ' 
-        ModernComboBox4.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        ModernComboBox4.BorderColorFocus = Color.Silver
-        ModernComboBox4.BorderRadius = 10
-        ModernComboBox4.BorderSize = 0
-        ModernComboBox4.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        ModernComboBox4.Dock = DockStyle.Left
-        ModernComboBox4.DropDownBorderSize = 2
-        ModernComboBox4.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        ModernComboBox4.DropDownPadding = New Padding(10)
-        ModernComboBox4.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        ModernComboBox4.Location = New Point(0, 10)
-        ModernComboBox4.Margin = New Padding(2, 2, 2, 2)
-        ModernComboBox4.Name = "ModernComboBox4"
-        ModernComboBox4.Padding = New Padding(10, 0, 10, 0)
-        ModernComboBox4.Size = New Size(175, 32)
-        ModernComboBox4.TabIndex = 0
-        ModernComboBox4.ToolTipBorderSize = 2
-        ModernComboBox4.ToolTipGap = 10
-        ModernComboBox4.ToolTipMaxWidth = 350
-        ModernComboBox4.ToolTipPadding = New Padding(15)
-        ModernComboBox4.WaterText = "选择滤镜"
-        ' 
-        ' HtmlColorLabel4
-        ' 
-        HtmlColorLabel4.AutoSize = True
-        HtmlColorLabel4.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel4.Dock = DockStyle.Top
-        HtmlColorLabel4.Location = New Point(20, 92)
-        HtmlColorLabel4.Margin = New Padding(2)
-        HtmlColorLabel4.Name = "HtmlColorLabel4"
-        HtmlColorLabel4.Padding = New Padding(0, 20, 0, 5)
-        HtmlColorLabel4.Size = New Size(790, 50)
-        HtmlColorLabel4.TabIndex = 8
-        HtmlColorLabel4.Text = "<span style=""font-size:13"">色彩空间</span>   <span style=""font-size:10pt; color:Gray"">在此处转换色彩空间；先选用哪个滤镜，再配置，最后选方式</span>"
-        ' 
+        '
+        ' HCL_选择滤镜
+        '
+        HCL_选择滤镜.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_选择滤镜.Dock = DockStyle.Fill
+        HCL_选择滤镜.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_选择滤镜.Location = New Point(175, 10)
+        HCL_选择滤镜.Margin = New Padding(2)
+        HCL_选择滤镜.Name = "HCL_选择滤镜"
+        HCL_选择滤镜.Padding = New Padding(10, 0, 0, 0)
+        HCL_选择滤镜.Size = New Size(627, 32)
+        HCL_选择滤镜.TabIndex = 1
+        HCL_选择滤镜.Text = "<span style=""color:Silver"">选择滤镜</span>   zscale 使用 <span style=""color:MediumPurple"">CPU</span> 兼容性好，libplacebo 使用 <span style=""color:YellowGreen"">GPU</span> 速度更快"
+        HCL_选择滤镜.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_色彩管理_选择滤镜
+        '
+        MCB_色彩管理_选择滤镜.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_选择滤镜.BorderRadius = 10
+        MCB_色彩管理_选择滤镜.BorderSize = 0
+        MCB_色彩管理_选择滤镜.Dock = DockStyle.Left
+        MCB_色彩管理_选择滤镜.DropDownBackdropBlurPasses = 2
+        MCB_色彩管理_选择滤镜.DropDownBackdropBlurRadius = 30
+        MCB_色彩管理_选择滤镜.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_色彩管理_选择滤镜.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_选择滤镜.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_色彩管理_选择滤镜.DropDownPadding = New Padding(10)
+        MCB_色彩管理_选择滤镜.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_选择滤镜.DropDownSelectedForeColor = Color.White
+        MCB_色彩管理_选择滤镜.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_选择滤镜.Items.Add("")
+        MCB_色彩管理_选择滤镜.Items.Add("zscale")
+        MCB_色彩管理_选择滤镜.Items.Add("libplacebo")
+        MCB_色彩管理_选择滤镜.Location = New Point(0, 10)
+        MCB_色彩管理_选择滤镜.Margin = New Padding(2, 2, 2, 2)
+        MCB_色彩管理_选择滤镜.Name = "MCB_色彩管理_选择滤镜"
+        MCB_色彩管理_选择滤镜.Padding = New Padding(10, 0, 10, 0)
+        MCB_色彩管理_选择滤镜.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_色彩管理_选择滤镜.Size = New Size(175, 32)
+        MCB_色彩管理_选择滤镜.TabIndex = 0
+        MCB_色彩管理_选择滤镜.ToolTipGap = -1
+        MCB_色彩管理_选择滤镜.ToolTipMaxWidth = 350
+        MCB_色彩管理_选择滤镜.ToolTipPadding = New Padding(15)
+        MCB_色彩管理_选择滤镜.WaterText = "选择滤镜"
+        MCB_色彩管理_选择滤镜.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
+        ' HCL_色彩空间
+        '
+        HCL_色彩空间.AutoSize = True
+        HCL_色彩空间.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_色彩空间.Dock = DockStyle.Top
+        HCL_色彩空间.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_色彩空间.Location = New Point(20, 87)
+        HCL_色彩空间.Margin = New Padding(2)
+        HCL_色彩空间.Name = "HCL_色彩空间"
+        HCL_色彩空间.Padding = New Padding(0, 20, 0, 0)
+        HCL_色彩空间.Size = New Size(802, 45)
+        HCL_色彩空间.TabIndex = 8
+        HCL_色彩空间.Text = "<span style=""font-size:13; color:Silver"">色彩空间</span>   在此处转换色彩空间；先选用哪个滤镜，再配置，最后选方式"
+        '
         ' Panel2
-        ' 
-        Panel2.Controls.Add(HtmlColorLabel3)
-        Panel2.Controls.Add(MCB_预先转换到像素格式)
-        Panel2.Controls.Add(HtmlColorLabel2)
+        '
+        Panel2.Controls.Add(HCL_预先转换)
+        Panel2.Controls.Add(MCB_像素格式预先转换)
+        Panel2.Controls.Add(HCL_最终输出)
         Panel2.Controls.Add(MCB_像素格式)
         Panel2.Dock = DockStyle.Top
-        Panel2.Location = New Point(20, 50)
+        Panel2.Location = New Point(20, 45)
         Panel2.Name = "Panel2"
         Panel2.Padding = New Padding(0, 10, 0, 0)
-        Panel2.Size = New Size(790, 42)
+        Panel2.Size = New Size(802, 42)
         Panel2.TabIndex = 7
-        ' 
-        ' HtmlColorLabel3
-        ' 
-        HtmlColorLabel3.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel3.Dock = DockStyle.Fill
-        HtmlColorLabel3.Location = New Point(500, 10)
-        HtmlColorLabel3.Margin = New Padding(2)
-        HtmlColorLabel3.Name = "HtmlColorLabel3"
-        HtmlColorLabel3.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel3.Size = New Size(290, 32)
-        HtmlColorLabel3.TabIndex = 3
-        HtmlColorLabel3.Text = "预先转换（<span style=""font-size:10pt; color:MediumPurple"">默认排在所有滤镜最前</span>）"
-        HtmlColorLabel3.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
-        ' MCB_预先转换到像素格式
-        ' 
-        MCB_预先转换到像素格式.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        MCB_预先转换到像素格式.BorderColorFocus = Color.Silver
-        MCB_预先转换到像素格式.BorderRadius = 10
-        MCB_预先转换到像素格式.BorderSize = 0
-        MCB_预先转换到像素格式.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
-        MCB_预先转换到像素格式.Dock = DockStyle.Left
-        MCB_预先转换到像素格式.DropDownBorderSize = 2
-        MCB_预先转换到像素格式.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
-        MCB_预先转换到像素格式.DropDownPadding = New Padding(10)
-        MCB_预先转换到像素格式.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
-        MCB_预先转换到像素格式.Editable = True
-        MCB_预先转换到像素格式.Items.Add("")
-        MCB_预先转换到像素格式.Items.Add("yuv420p")
-        MCB_预先转换到像素格式.Items.Add("yuv420p10le")
-        MCB_预先转换到像素格式.Items.Add("yuv422p")
-        MCB_预先转换到像素格式.Items.Add("yuv422p10le")
-        MCB_预先转换到像素格式.Items.Add("yuv444p")
-        MCB_预先转换到像素格式.Items.Add("yuv444p10le")
-        MCB_预先转换到像素格式.Items.Add("p010le")
-        MCB_预先转换到像素格式.Location = New Point(325, 10)
-        MCB_预先转换到像素格式.Margin = New Padding(2, 2, 2, 2)
-        MCB_预先转换到像素格式.Name = "MCB_预先转换到像素格式"
-        MCB_预先转换到像素格式.Padding = New Padding(10, 0, 10, 0)
-        MCB_预先转换到像素格式.Size = New Size(175, 32)
-        MCB_预先转换到像素格式.TabIndex = 2
-        MCB_预先转换到像素格式.ToolTipBorderSize = 2
-        MCB_预先转换到像素格式.ToolTipGap = 10
-        MCB_预先转换到像素格式.ToolTipMaxWidth = 350
-        MCB_预先转换到像素格式.ToolTipPadding = New Padding(15)
-        MCB_预先转换到像素格式.WaterText = "format"
-        ' 
-        ' HtmlColorLabel2
-        ' 
-        HtmlColorLabel2.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel2.Dock = DockStyle.Left
-        HtmlColorLabel2.Location = New Point(175, 10)
-        HtmlColorLabel2.Margin = New Padding(2)
-        HtmlColorLabel2.Name = "HtmlColorLabel2"
-        HtmlColorLabel2.Padding = New Padding(10, 0, 0, 0)
-        HtmlColorLabel2.Size = New Size(150, 32)
-        HtmlColorLabel2.TabIndex = 1
-        HtmlColorLabel2.Text = "最终输出"
-        HtmlColorLabel2.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
-        ' 
+        '
+        ' HCL_预先转换
+        '
+        HCL_预先转换.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_预先转换.Dock = DockStyle.Fill
+        HCL_预先转换.Location = New Point(500, 10)
+        HCL_预先转换.Margin = New Padding(2)
+        HCL_预先转换.Name = "HCL_预先转换"
+        HCL_预先转换.Padding = New Padding(10, 0, 0, 0)
+        HCL_预先转换.Size = New Size(302, 32)
+        HCL_预先转换.TabIndex = 3
+        HCL_预先转换.Text = "预先转换（<span style=""color:MediumPurple"">默认排在所有滤镜最前</span>）"
+        HCL_预先转换.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
+        ' MCB_像素格式预先转换
+        '
+        MCB_像素格式预先转换.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_像素格式预先转换.BorderRadius = 10
+        MCB_像素格式预先转换.BorderSize = 0
+        MCB_像素格式预先转换.Dock = DockStyle.Left
+        MCB_像素格式预先转换.DropDownBackdropBlurPasses = 2
+        MCB_像素格式预先转换.DropDownBackdropBlurRadius = 30
+        MCB_像素格式预先转换.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_像素格式预先转换.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
+        MCB_像素格式预先转换.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
+        MCB_像素格式预先转换.DropDownPadding = New Padding(10)
+        MCB_像素格式预先转换.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_像素格式预先转换.DropDownSelectedForeColor = Color.White
+        MCB_像素格式预先转换.Editable = True
+        MCB_像素格式预先转换.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_像素格式预先转换.Items.Add("")
+        MCB_像素格式预先转换.Items.Add("yuv420p")
+        MCB_像素格式预先转换.Items.Add("yuv420p10le")
+        MCB_像素格式预先转换.Items.Add("yuv422p")
+        MCB_像素格式预先转换.Items.Add("yuv422p10le")
+        MCB_像素格式预先转换.Items.Add("yuv444p")
+        MCB_像素格式预先转换.Items.Add("yuv444p10le")
+        MCB_像素格式预先转换.Items.Add("p010le")
+        MCB_像素格式预先转换.Location = New Point(325, 10)
+        MCB_像素格式预先转换.Margin = New Padding(2, 2, 2, 2)
+        MCB_像素格式预先转换.Name = "MCB_像素格式预先转换"
+        MCB_像素格式预先转换.Padding = New Padding(10, 0, 10, 0)
+        MCB_像素格式预先转换.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_像素格式预先转换.Size = New Size(175, 32)
+        MCB_像素格式预先转换.TabIndex = 2
+        MCB_像素格式预先转换.ToolTipGap = -1
+        MCB_像素格式预先转换.ToolTipMaxWidth = 350
+        MCB_像素格式预先转换.ToolTipPadding = New Padding(15)
+        MCB_像素格式预先转换.WaterText = "format"
+        MCB_像素格式预先转换.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
+        ' HCL_最终输出
+        '
+        HCL_最终输出.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_最终输出.Dock = DockStyle.Left
+        HCL_最终输出.Location = New Point(175, 10)
+        HCL_最终输出.Margin = New Padding(2)
+        HCL_最终输出.Name = "HCL_最终输出"
+        HCL_最终输出.Padding = New Padding(10, 0, 0, 0)
+        HCL_最终输出.Size = New Size(150, 32)
+        HCL_最终输出.TabIndex = 1
+        HCL_最终输出.Text = "最终输出"
+        HCL_最终输出.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.MiddleLeft
+        '
         ' MCB_像素格式
-        ' 
+        '
         MCB_像素格式.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        MCB_像素格式.BorderColorFocus = Color.Silver
         MCB_像素格式.BorderRadius = 10
         MCB_像素格式.BorderSize = 0
-        MCB_像素格式.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
         MCB_像素格式.Dock = DockStyle.Left
-        MCB_像素格式.DropDownBorderSize = 2
+        MCB_像素格式.DropDownBackdropBlurPasses = 2
+        MCB_像素格式.DropDownBackdropBlurRadius = 30
+        MCB_像素格式.DropDownBackdropMode = LakeUI.PopupBackdropMode.Auto
+        MCB_像素格式.DropDownHoverColor = Color.FromArgb(CByte(20), CByte(220), CByte(220), CByte(220))
         MCB_像素格式.DropDownMode = LakeUI.ModernComboBox.DropDownDisplayMode.Overlay
         MCB_像素格式.DropDownPadding = New Padding(10)
-        MCB_像素格式.DropDownScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
+        MCB_像素格式.DropDownSelectedColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCB_像素格式.DropDownSelectedForeColor = Color.White
         MCB_像素格式.Editable = True
+        MCB_像素格式.HoverBackColor1 = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
         MCB_像素格式.Location = New Point(0, 10)
         MCB_像素格式.Margin = New Padding(2, 2, 2, 2)
         MCB_像素格式.Name = "MCB_像素格式"
         MCB_像素格式.Padding = New Padding(10, 0, 10, 0)
+        MCB_像素格式.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
         MCB_像素格式.Size = New Size(175, 32)
         MCB_像素格式.TabIndex = 0
-        MCB_像素格式.ToolTipBorderSize = 2
-        MCB_像素格式.ToolTipGap = 10
+        MCB_像素格式.ToolTipGap = -1
         MCB_像素格式.ToolTipMaxWidth = 350
         MCB_像素格式.ToolTipPadding = New Padding(15)
         MCB_像素格式.WaterText = "-pix_fmt"
-        ' 
-        ' HtmlColorLabel1
-        ' 
-        HtmlColorLabel1.AutoSize = True
-        HtmlColorLabel1.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel1.Dock = DockStyle.Top
-        HtmlColorLabel1.Location = New Point(20, 20)
-        HtmlColorLabel1.Margin = New Padding(2)
-        HtmlColorLabel1.Name = "HtmlColorLabel1"
-        HtmlColorLabel1.Padding = New Padding(0, 0, 0, 5)
-        HtmlColorLabel1.Size = New Size(790, 30)
-        HtmlColorLabel1.TabIndex = 6
-        HtmlColorLabel1.Text = "<span style=""font-size:13"">像素格式</span>   <span style=""font-size:10pt; color:Gray"">指定像素如何存储，下拉选项跟随选择的具体编码器</span>"
-        ' 
+        MCB_像素格式.WaterTextForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        '
+        ' HCL_像素格式
+        '
+        HCL_像素格式.AutoSize = True
+        HCL_像素格式.AutoSizeMode = AutoSizeMode.GrowAndShrink
+        HCL_像素格式.Dock = DockStyle.Top
+        HCL_像素格式.ForeColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
+        HCL_像素格式.Location = New Point(20, 20)
+        HCL_像素格式.Margin = New Padding(2)
+        HCL_像素格式.Name = "HCL_像素格式"
+        HCL_像素格式.Size = New Size(802, 25)
+        HCL_像素格式.TabIndex = 6
+        HCL_像素格式.Text = "<span style=""font-size:13; color:Silver"">像素格式</span>   指定像素如何存储，下拉选项跟随选择的具体编码器"
+        '
+        ' MCK_启用亮度调整
+        '
+        MCK_启用亮度调整.AutoSize = True
+        MCK_启用亮度调整.BackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用亮度调整.BoxBorderRadius = 5
+        MCK_启用亮度调整.BoxBorderSize = 0
+        MCK_启用亮度调整.BoxCheckedBackColor = Color.IndianRed
+        MCK_启用亮度调整.BoxInnerPadding = 6
+        MCK_启用亮度调整.BoxSize = 22
+        MCK_启用亮度调整.BoxTextSpacing = 10
+        MCK_启用亮度调整.BoxUncheckedBackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用亮度调整.Checked = True
+        MCK_启用亮度调整.ClickAnywhere = True
+        MCK_启用亮度调整.Dock = DockStyle.Bottom
+        MCK_启用亮度调整.Location = New Point(0, 157)
+        MCK_启用亮度调整.Name = "MCK_启用亮度调整"
+        MCK_启用亮度调整.Padding = New Padding(10)
+        MCK_启用亮度调整.Size = New Size(150, 42)
+        MCK_启用亮度调整.TabIndex = 15
+        MCK_启用亮度调整.Text = "亮度"
+        '
+        ' MCK_启用对比度调整
+        '
+        MCK_启用对比度调整.AutoSize = True
+        MCK_启用对比度调整.BackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用对比度调整.BoxBorderRadius = 5
+        MCK_启用对比度调整.BoxBorderSize = 0
+        MCK_启用对比度调整.BoxCheckedBackColor = Color.OliveDrab
+        MCK_启用对比度调整.BoxInnerPadding = 6
+        MCK_启用对比度调整.BoxSize = 22
+        MCK_启用对比度调整.BoxTextSpacing = 10
+        MCK_启用对比度调整.BoxUncheckedBackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用对比度调整.Checked = True
+        MCK_启用对比度调整.ClickAnywhere = True
+        MCK_启用对比度调整.Dock = DockStyle.Bottom
+        MCK_启用对比度调整.Location = New Point(0, 157)
+        MCK_启用对比度调整.Name = "MCK_启用对比度调整"
+        MCK_启用对比度调整.Padding = New Padding(10)
+        MCK_启用对比度调整.Size = New Size(150, 42)
+        MCK_启用对比度调整.TabIndex = 15
+        MCK_启用对比度调整.Text = "对比度"
+        '
+        ' MCK_启用饱和度调整
+        '
+        MCK_启用饱和度调整.AutoSize = True
+        MCK_启用饱和度调整.BackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用饱和度调整.BoxBorderRadius = 5
+        MCK_启用饱和度调整.BoxBorderSize = 0
+        MCK_启用饱和度调整.BoxCheckedBackColor = Color.CornflowerBlue
+        MCK_启用饱和度调整.BoxInnerPadding = 6
+        MCK_启用饱和度调整.BoxSize = 22
+        MCK_启用饱和度调整.BoxTextSpacing = 10
+        MCK_启用饱和度调整.BoxUncheckedBackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用饱和度调整.Checked = True
+        MCK_启用饱和度调整.ClickAnywhere = True
+        MCK_启用饱和度调整.Dock = DockStyle.Bottom
+        MCK_启用饱和度调整.Location = New Point(0, 157)
+        MCK_启用饱和度调整.Name = "MCK_启用饱和度调整"
+        MCK_启用饱和度调整.Padding = New Padding(10)
+        MCK_启用饱和度调整.Size = New Size(150, 42)
+        MCK_启用饱和度调整.TabIndex = 15
+        MCK_启用饱和度调整.Text = "饱和度"
+        '
+        ' MCK_启用伽马调整
+        '
+        MCK_启用伽马调整.AutoSize = True
+        MCK_启用伽马调整.BackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用伽马调整.BoxBorderRadius = 5
+        MCK_启用伽马调整.BoxBorderSize = 0
+        MCK_启用伽马调整.BoxCheckedBackColor = Color.MediumPurple
+        MCK_启用伽马调整.BoxInnerPadding = 6
+        MCK_启用伽马调整.BoxSize = 22
+        MCK_启用伽马调整.BoxTextSpacing = 10
+        MCK_启用伽马调整.BoxUncheckedBackColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
+        MCK_启用伽马调整.Checked = True
+        MCK_启用伽马调整.ClickAnywhere = True
+        MCK_启用伽马调整.Dock = DockStyle.Bottom
+        MCK_启用伽马调整.Location = New Point(0, 157)
+        MCK_启用伽马调整.Name = "MCK_启用伽马调整"
+        MCK_启用伽马调整.Padding = New Padding(10)
+        MCK_启用伽马调整.Size = New Size(150, 42)
+        MCK_启用伽马调整.TabIndex = 15
+        MCK_启用伽马调整.Text = "伽马"
+        '
         ' Form_v6_参数面板_色彩管理
-        ' 
+        '
         AutoScaleDimensions = New SizeF(96F, 96F)
         AutoScaleMode = AutoScaleMode.Dpi
         BackColor = Color.FromArgb(CByte(24), CByte(24), CByte(24))
@@ -887,9 +1075,13 @@ Partial Class Form_v6_参数面板_色彩管理
         ModernPanel1.PerformLayout()
         Panel9.ResumeLayout(False)
         Panel13.ResumeLayout(False)
+        Panel13.PerformLayout()
         Panel12.ResumeLayout(False)
+        Panel12.PerformLayout()
         Panel11.ResumeLayout(False)
+        Panel11.PerformLayout()
         Panel10.ResumeLayout(False)
+        Panel10.PerformLayout()
         Panel8.ResumeLayout(False)
         Panel7.ResumeLayout(False)
         Panel6.ResumeLayout(False)
@@ -902,50 +1094,49 @@ Partial Class Form_v6_参数面板_色彩管理
     End Sub
 
     Friend WithEvents ModernPanel1 As LakeUI.ModernPanel
-    Friend WithEvents HtmlColorLabel1 As LakeUI.HtmlColorLabel
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents HCL_像素格式 As LakeUI.HtmlColorLabel
+    Friend WithEvents Panel2 As LakeUI.ModernPanel
     Friend WithEvents MCB_像素格式 As LakeUI.ModernComboBox
-    Friend WithEvents HtmlColorLabel2 As LakeUI.HtmlColorLabel
-    Friend WithEvents HtmlColorLabel3 As LakeUI.HtmlColorLabel
-    Friend WithEvents MCB_预先转换到像素格式 As LakeUI.ModernComboBox
-    Friend WithEvents HtmlColorLabel4 As LakeUI.HtmlColorLabel
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents HtmlColorLabel6 As LakeUI.HtmlColorLabel
-    Friend WithEvents ModernComboBox4 As LakeUI.ModernComboBox
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents HtmlColorLabel5 As LakeUI.HtmlColorLabel
-    Friend WithEvents ModernComboBox3 As LakeUI.ModernComboBox
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents HtmlColorLabel7 As LakeUI.HtmlColorLabel
-    Friend WithEvents ModernComboBox5 As LakeUI.ModernComboBox
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents HtmlColorLabel8 As LakeUI.HtmlColorLabel
-    Friend WithEvents ModernComboBox6 As LakeUI.ModernComboBox
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents HtmlColorLabel10 As LakeUI.HtmlColorLabel
-    Friend WithEvents ModernComboBox8 As LakeUI.ModernComboBox
-    Friend WithEvents Panel6 As Panel
-    Friend WithEvents HtmlColorLabel9 As LakeUI.HtmlColorLabel
-    Friend WithEvents ModernComboBox7 As LakeUI.ModernComboBox
-    Friend WithEvents Panel8 As Panel
-    Friend WithEvents HtmlColorLabel12 As LakeUI.HtmlColorLabel
-    Friend WithEvents ModernComboBox9 As LakeUI.ModernComboBox
-    Friend WithEvents HtmlColorLabel11 As LakeUI.HtmlColorLabel
-    Friend WithEvents Panel9 As Panel
-    Friend WithEvents Panel10 As Panel
-    Friend WithEvents ExcellentTrackBar1 As LakeUI.ExcellentTrackBar
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Panel13 As Panel
-    Friend WithEvents ExcellentTrackBar4 As LakeUI.ExcellentTrackBar
-    Friend WithEvents Label4 As Label
+    Friend WithEvents HCL_最终输出 As LakeUI.HtmlColorLabel
+    Friend WithEvents HCL_预先转换 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_像素格式预先转换 As LakeUI.ModernComboBox
+    Friend WithEvents HCL_色彩空间 As LakeUI.HtmlColorLabel
+    Friend WithEvents Panel1 As LakeUI.ModernPanel
+    Friend WithEvents HCL_选择滤镜 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_色彩管理_选择滤镜 As LakeUI.ModernComboBox
+    Friend WithEvents Panel3 As LakeUI.ModernPanel
+    Friend WithEvents HCL_矩阵系数 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_色彩管理_矩阵系数 As LakeUI.ModernComboBox
+    Friend WithEvents Panel4 As LakeUI.ModernPanel
+    Friend WithEvents HCL_色域 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_色彩管理_色域 As LakeUI.ModernComboBox
+    Friend WithEvents Panel5 As LakeUI.ModernPanel
+    Friend WithEvents HCL_传输特性 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_色彩管理_传输特性 As LakeUI.ModernComboBox
+    Friend WithEvents Panel7 As LakeUI.ModernPanel
+    Friend WithEvents HCL_色调映射算法 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_色彩管理_色调映射算法 As LakeUI.ModernComboBox
+    Friend WithEvents Panel6 As LakeUI.ModernPanel
+    Friend WithEvents HCL_色彩范围 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_色彩管理_色彩范围 As LakeUI.ModernComboBox
+    Friend WithEvents Panel8 As LakeUI.ModernPanel
+    Friend WithEvents HCL_操作方式 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCB_色彩管理_色彩空间操作方式 As LakeUI.ModernComboBox
+    Friend WithEvents HCL_简易调色 As LakeUI.HtmlColorLabel
+    Friend WithEvents Panel9 As LakeUI.ModernPanel
+    Friend WithEvents Panel10 As LakeUI.ModernPanel
+    Friend WithEvents ETB_亮度 As LakeUI.ExcellentTrackBar
+    Friend WithEvents Panel13 As LakeUI.ModernPanel
+    Friend WithEvents ETB_伽马 As LakeUI.ExcellentTrackBar
     Friend WithEvents JustEmptyControl5 As LakeUI.JustEmptyControl
-    Friend WithEvents Panel12 As Panel
-    Friend WithEvents ExcellentTrackBar3 As LakeUI.ExcellentTrackBar
-    Friend WithEvents Label3 As Label
+    Friend WithEvents Panel12 As LakeUI.ModernPanel
+    Friend WithEvents ETB_饱和度 As LakeUI.ExcellentTrackBar
     Friend WithEvents JustEmptyControl3 As LakeUI.JustEmptyControl
-    Friend WithEvents Panel11 As Panel
-    Friend WithEvents ExcellentTrackBar2 As LakeUI.ExcellentTrackBar
-    Friend WithEvents Label2 As Label
+    Friend WithEvents Panel11 As LakeUI.ModernPanel
+    Friend WithEvents ETB_对比度 As LakeUI.ExcellentTrackBar
     Friend WithEvents JustEmptyControl2 As LakeUI.JustEmptyControl
-    Friend WithEvents HtmlColorLabel13 As LakeUI.HtmlColorLabel
+    Friend WithEvents MCK_启用伽马调整 As LakeUI.ModernCheckBox
+    Friend WithEvents MCK_启用饱和度调整 As LakeUI.ModernCheckBox
+    Friend WithEvents MCK_启用对比度调整 As LakeUI.ModernCheckBox
+    Friend WithEvents MCK_启用亮度调整 As LakeUI.ModernCheckBox
 End Class

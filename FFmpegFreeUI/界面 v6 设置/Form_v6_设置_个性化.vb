@@ -1,9 +1,9 @@
-﻿Imports System.IO
+Imports System.IO
 Imports LakeUI
 
 Public Class Form_v6_设置_个性化
     Private Sub MB_前往购买_Click(sender As Object, e As EventArgs) Handles MB_前往购买.Click
-        Process.Start(New ProcessStartInfo With {.FileName = "https://ifdian.net/item/15f0758814a911f1979752540025c377", .UseShellExecute = True})
+        Process.Start(New ProcessStartInfo With {.FileName = "https://ifdian.net/item/a98d04e8b98011f0a49952540025c377", .UseShellExecute = True})
     End Sub
 
     Private Sub MB_窗口标题文字_Click(sender As Object, e As EventArgs) Handles MB_窗口标题文字.Click
@@ -19,12 +19,12 @@ Public Class Form_v6_设置_个性化
     End Sub
 
     Private Sub MB_图标_Click(sender As Object, e As EventArgs) Handles MB_图标.Click
-        Select Case ExMsgBox($"图标除了显示在窗口左上角，还会显示在起始页面顶栏左侧大图，因此推荐使用较为清晰的 png 透明背景图片，注意顶栏位置的图片为了确保质量使用 2x SSAA 渲染，所以分辨率不宜过高。{vbCrLf & vbCrLf}设置之后如果要取消，请直接删除当前目录下的 {Path.GetFileName(设置_v6.自定义图标路径)} 并重启软件即可。", New List(Of ExMsgBoxButton) From {New ExMsgBoxButton("选择图标", True), New ExMsgBoxButton("取消")}, , MsgBoxStyle.Information, FormMain_v6)
+        Select Case ExMsgBox($"图标除了显示在窗口左上角，还会显示在起始页面顶栏左侧大图，但分辨率不宜过高。{vbCrLf & vbCrLf}设置之后如果要取消，请直接删除当前目录下的 {Path.GetFileName(设置_v6.自定义图标路径)} 并重启软件即可。", New List(Of ExMsgBoxButton) From {New ExMsgBoxButton("选择图标", True), New ExMsgBoxButton("取消")}, , MsgBoxStyle.Information, FormMain_v6)
             Case 0
                 Dim a As New OpenFileDialog With {.Multiselect = False, .Filter = "支持的图片|*.png;*.jpg;*.gif"}
                 If a.ShowDialog(FormMain_v6) = DialogResult.OK Then
                     FileIO.FileSystem.CopyFile(a.FileName, 设置_v6.自定义图标路径, True)
-                    设置_v6.加载SP自定义图标()
+                    设置_v6.加载SP自定义图标
                 End If
         End Select
     End Sub
@@ -36,6 +36,28 @@ Public Class Form_v6_设置_个性化
                 If a.ShowDialog(FormMain_v6) = DialogResult.OK Then
                     FileIO.FileSystem.CopyFile(a.FileName, 设置_v6.自定义起始页顶栏背景图路径, True)
                     设置_v6.加载SP自定义起始页顶栏背景图()
+                End If
+        End Select
+    End Sub
+
+    Private Sub MB_任务完成音效_Click(sender As Object, e As EventArgs) Handles MB_任务完成音效.Click
+        Select Case ExMsgBox($"请选择 wav 音频文件作为任务全部完成时的提示音。{vbCrLf & vbCrLf}设置之后如果要取消，请清空 Settings.json 中的 个性化_任务完成音效 设置项并重启软件即可。", New List(Of ExMsgBoxButton) From {New ExMsgBoxButton("选择音效", True), New ExMsgBoxButton("取消")}, , MsgBoxStyle.Information, FormMain_v6)
+            Case 0
+                Dim a As New OpenFileDialog With {.Multiselect = False, .Filter = "WAV 音频|*.wav"}
+                If a.ShowDialog(FormMain_v6) = DialogResult.OK Then
+                    设置_v6.实例对象.个性化_任务完成音效 = a.FileName
+                    设置_v6.加载SP自定义任务完成音效()
+                End If
+        End Select
+    End Sub
+
+    Private Sub MB_任务失败音效_Click(sender As Object, e As EventArgs) Handles MB_任务失败音效.Click
+        Select Case ExMsgBox($"请选择 wav 音频文件作为任务全部完成且存在错误时的提示音。{vbCrLf & vbCrLf}设置之后如果要取消，请清空 Settings.json 中的 个性化_任务失败音效 设置项并重启软件即可。", New List(Of ExMsgBoxButton) From {New ExMsgBoxButton("选择音效", True), New ExMsgBoxButton("取消")}, , MsgBoxStyle.Information, FormMain_v6)
+            Case 0
+                Dim a As New OpenFileDialog With {.Multiselect = False, .Filter = "WAV 音频|*.wav"}
+                If a.ShowDialog(FormMain_v6) = DialogResult.OK Then
+                    设置_v6.实例对象.个性化_任务失败音效 = a.FileName
+                    设置_v6.加载SP自定义任务失败音效()
                 End If
         End Select
     End Sub
@@ -71,24 +93,48 @@ Public Class Form_v6_设置_个性化
         FormMain_v6.ThisIsYourWindow1.BorderSize = MCB_边框宽度.SelectedIndex
     End Sub
 
+    Private Sub MCB_标题栏分割线_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MCB_标题栏分割线.SelectedIndexChanged
+        If Not SP_UnLock Then Exit Sub
+        设置_v6.实例对象.SP_标题栏分割线 = If(MCB_标题栏分割线.SelectedIndex > 0, 1, 0)
+        设置_v6.应用SP标题栏分割线()
+    End Sub
+
+    Private Sub MB_标题栏分割线颜色_Click(sender As Object, e As EventArgs) Handles MB_标题栏分割线颜色.Click
+        Dim a As New ModernColorDialog With {.SelectedColor = FormMain_v6.ThisIsYourWindow1.CaptionBottomLineColor, .Icon = FormMain_v6.Icon}
+        FormMain_v6.ThisIsYourWindow1.Attach(a)
+        If a.ShowDialog(FormMain_v6) = DialogResult.OK Then
+            设置_v6.实例对象.SP_标题栏分割线颜色_A = a.SelectedColor.A
+            设置_v6.实例对象.SP_标题栏分割线颜色_R = a.SelectedColor.R
+            设置_v6.实例对象.SP_标题栏分割线颜色_G = a.SelectedColor.G
+            设置_v6.实例对象.SP_标题栏分割线颜色_B = a.SelectedColor.B
+            FormMain_v6.ThisIsYourWindow1.CaptionBottomLineColor = a.SelectedColor
+        End If
+    End Sub
+
     Private Sub MCB_毛玻璃模式_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MCB_毛玻璃模式.SelectedIndexChanged
         If Not SP_UnLock Then Exit Sub
         设置_v6.实例对象.SP_毛玻璃模式 = MCB_毛玻璃模式.SelectedIndex
         Select Case 设置_v6.实例对象.SP_毛玻璃模式
             Case 0
                 FormMain_v6.ThisIsYourWindow1.BackdropMode = ThisIsYourWindow.BackdropModeEnum.None
-                FormMain_v6.ThisIsYourWindow1.BackdropImage = Nothing
+                设置_v6.清除SP自有背景图()
                 FormMain_v6.ThisIsYourWindow1.BackdropNoiseOpacity = 0
                 MCB_背景来源.SelectedIndex = -1
                 MCB_噪点颗粒.SelectedIndex = -1
                 MCB_背景来源.Enabled = False
                 MCB_噪点颗粒.Enabled = False
             Case 1
-                FormMain_v6.ThisIsYourWindow1.BackdropBlurPasses = 1
+                FormMain_v6.ThisIsYourWindow1.BackdropBlurPasses = 0
                 MCB_背景来源.Enabled = True
                 MCB_噪点颗粒.Enabled = True
             Case 2
+                FormMain_v6.ThisIsYourWindow1.BackdropBlurPasses = 1
+                FormMain_v6.ThisIsYourWindow1.BackdropBlurRadius = 10
+                MCB_背景来源.Enabled = True
+                MCB_噪点颗粒.Enabled = True
+            Case 3
                 FormMain_v6.ThisIsYourWindow1.BackdropBlurPasses = 3
+                FormMain_v6.ThisIsYourWindow1.BackdropBlurRadius = 24
                 MCB_背景来源.Enabled = True
                 MCB_噪点颗粒.Enabled = True
         End Select
@@ -103,7 +149,7 @@ Public Class Form_v6_设置_个性化
                 设置_v6.加载SP自定义背景图()
             Case 1
                 FormMain_v6.ThisIsYourWindow1.BackdropMode = ThisIsYourWindow.BackdropModeEnum.Auto
-                FormMain_v6.ThisIsYourWindow1.BackdropImage = Nothing
+                设置_v6.清除SP自有背景图()
         End Select
     End Sub
 
@@ -115,11 +161,13 @@ Public Class Form_v6_设置_个性化
                 FormMain_v6.ThisIsYourWindow1.BackdropNoiseOpacity = 0
             Case 1
                 FormMain_v6.ThisIsYourWindow1.BackdropNoiseOpacity = 18
+            Case 2
+                FormMain_v6.ThisIsYourWindow1.BackdropNoiseOpacity = 36
         End Select
     End Sub
 
     Private Sub MB_选择背景图_Click(sender As Object, e As EventArgs) Handles MB_选择背景图.Click
-        Select Case ExMsgBox($"要使用背景图，必须启用毛玻璃模式。{vbCrLf & vbCrLf}设置之后如果要取消，请直接删除当前目录下的 {Path.GetFileName(设置_v6.自定义背景图路径)} 并重启软件即可。", New List(Of ExMsgBoxButton) From {New ExMsgBoxButton("选择图片", True), New ExMsgBoxButton("取消")}, , MsgBoxStyle.Information, FormMain_v6)
+        Select Case ExMsgBox($"要使用背景图，必须启用玻璃背景。{vbCrLf & vbCrLf}设置之后如果要取消，请直接删除当前目录下的 {Path.GetFileName(设置_v6.自定义背景图路径)} 并重启软件即可。", New List(Of ExMsgBoxButton) From {New ExMsgBoxButton("选择图片", True), New ExMsgBoxButton("取消")}, , MsgBoxStyle.Information, FormMain_v6)
             Case 0
                 Dim a As New OpenFileDialog With {.Multiselect = False, .Filter = "支持的图片|*.png;*.jpg"}
                 If a.ShowDialog(FormMain_v6) = DialogResult.OK Then

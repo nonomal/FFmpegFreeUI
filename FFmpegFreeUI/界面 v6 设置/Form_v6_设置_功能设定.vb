@@ -1,6 +1,10 @@
-﻿Imports Microsoft.WindowsAPICodePack.Dialogs
+Imports Microsoft.WindowsAPICodePack.Dialogs
 
 Public Class Form_v6_设置_功能设定
+    Private Sub Form_v6_设置_功能设定_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        绑定路径文本框拖拽(MTB_工作目录, 路径下拉框拖拽模式.文件夹路径)
+    End Sub
+
     Private Sub MTB_工作目录_TextChanged(sender As Object, e As EventArgs) Handles MTB_工作目录.TextChanged
         设置_v6.实例对象.工作目录 = MTB_工作目录.Text
     End Sub
@@ -23,7 +27,9 @@ Public Class Form_v6_设置_功能设定
     End Sub
 
     Private Sub MCB_是否自动开始任务_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MCB_是否自动开始任务.SelectedIndexChanged
+        If MCB_是否自动开始任务.SelectedIndex < 0 Then Exit Sub
         设置_v6.实例对象.自动开始任务选项 = MCB_是否自动开始任务.SelectedIndex
+        编码队列_v6.应用自动开始任务设置(MCB_是否自动开始任务.SelectedIndex = 0)
     End Sub
 
     Private Sub MCB_是否自动重置参数面板到第一个页面_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MCB_是否自动重置参数面板到第一个页面.SelectedIndexChanged
@@ -42,5 +48,19 @@ Public Class Form_v6_设置_功能设定
         设置_v6.实例对象.任务失败自动删除输出文件 = MCB_任务失败删除文件.SelectedIndex
     End Sub
 
+    Private Sub MCB_编码队列显示最新日志行_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MCB_编码队列显示最新日志行.SelectedIndexChanged
+        设置_v6.实例对象.编码队列显示最新日志行 = MCB_编码队列显示最新日志行.SelectedIndex
+        编码队列_v6.刷新显示()
+    End Sub
+
+    Private Sub MCB_任务日志保留行数_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MCB_任务日志保留行数.SelectedIndexChanged
+        设置_v6.实例对象.任务日志保留行数选项 = MCB_任务日志保留行数.SelectedIndex
+        编码队列_v6.刷新显示()
+    End Sub
+
+    Private Sub MCB_任务日志性能计数器_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MCB_任务日志性能计数器.SelectedIndexChanged
+        设置_v6.实例对象.任务日志性能计数器 = MCB_任务日志性能计数器.SelectedIndex
+        Form_v6_编码队列_任务日志.刷新任务性能计数器设置()
+    End Sub
 
 End Class

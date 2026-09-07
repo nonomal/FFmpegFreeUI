@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form_v6_设置
     Inherits System.Windows.Forms.Form
 
@@ -41,26 +41,27 @@ Partial Class Form_v6_设置
         Dim ModernTabPage17 As LakeUI.ModernTabListControl.ModernTabPage = New LakeUI.ModernTabListControl.ModernTabPage()
         ModernTabListControl1 = New LakeUI.ModernTabListControl()
         ModernPanel1 = New LakeUI.ModernPanel()
+        ModernPanel1.BackColor = Color.Transparent
         ModernPanel1.SuspendLayout()
         SuspendLayout()
-        ' 
+        '
         ' ModernTabListControl1
-        ' 
+        '
         ModernTabListControl1.Dock = DockStyle.Fill
         ModernTabPage1.IsDescription = True
         ModernTabPage1.Text = "界面主框架 - 湖界"
         ModernTabPage2.Text = "LakeUI 性能选项"
         ModernTabPage3.Text = "LakeUI 视觉体验"
-        ModernTabPage4.Text = "许可证"
-        ModernTabPage5.IsSeparator = True
-        ModernTabPage6.IsDescription = True
-        ModernTabPage6.Text = "3FUI 配置选项"
-        ModernTabPage7.Text = "界面显示"
-        ModernTabPage8.Text = "性能调度"
-        ModernTabPage9.Text = "功能设定"
-        ModernTabPage10.Text = "转译辅助"
-        ModernTabPage11.Text = "更新选项"
-        ModernTabPage12.Text = "隐私设置"
+        ModernTabPage4.Text = "LakeUI HDR"
+        ModernTabPage5.Text = "许可证"
+        ModernTabPage6.IsSeparator = True
+        ModernTabPage7.IsDescription = True
+        ModernTabPage7.Text = "3FUI 配置选项"
+        ModernTabPage8.Text = "界面显示"
+        ModernTabPage9.Text = "性能调度"
+        ModernTabPage10.Text = "功能设定"
+        ModernTabPage11.Text = "转译辅助"
+        ModernTabPage12.Text = "更新选项"
         ModernTabPage13.Text = "远程调用"
         ModernTabPage14.Text = "Agent 设置"
         ModernTabPage15.IsSeparator = True
@@ -99,9 +100,9 @@ Partial Class Form_v6_设置
         ModernTabListControl1.TabItemSpacing = 0
         ModernTabListControl1.TabStripBackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         ModernTabListControl1.TabStripWidth = 200
-        ' 
+        '
         ' ModernPanel1
-        ' 
+        '
         ModernPanel1.BorderSize = 0
         ModernPanel1.Controls.Add(ModernTabListControl1)
         ModernPanel1.Dock = DockStyle.Fill
@@ -110,9 +111,9 @@ Partial Class Form_v6_设置
         ModernPanel1.ScrollBarMode = LakeUI.ModernPanel.ScrollMode.None
         ModernPanel1.Size = New Size(904, 622)
         ModernPanel1.TabIndex = 3
-        ' 
+        '
         ' Form_v6_设置
-        ' 
+        '
         AutoScaleDimensions = New SizeF(96F, 96F)
         AutoScaleMode = AutoScaleMode.Dpi
         BackColor = Color.FromArgb(CByte(24), CByte(24), CByte(24))

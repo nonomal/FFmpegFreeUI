@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form_v6_设置_LakeUI许可证
     Inherits System.Windows.Forms.Form
 
@@ -23,6 +23,8 @@ Partial Class Form_v6_设置_LakeUI许可证
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         ModernPanel1 = New LakeUI.ModernPanel()
+        ModernPanel1.BackColor = Color.Transparent
+        ModernPanel1.BackColor1 = Color.Transparent
         HtmlColorLabel2 = New LakeUI.HtmlColorLabel()
         HtmlColorLabel1 = New LakeUI.HtmlColorLabel()
         ModernPanel1.SuspendLayout()
@@ -30,7 +32,6 @@ Partial Class Form_v6_设置_LakeUI许可证
         ' 
         ' ModernPanel1
         ' 
-        ModernPanel1.BackColor1 = Color.FromArgb(CByte(24), CByte(24), CByte(24))
         ModernPanel1.BorderSize = 0
         ModernPanel1.Controls.Add(HtmlColorLabel2)
         ModernPanel1.Controls.Add(HtmlColorLabel1)
@@ -45,10 +46,11 @@ Partial Class Form_v6_设置_LakeUI许可证
         ' HtmlColorLabel2
         ' 
         HtmlColorLabel2.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        HtmlColorLabel2.BorderColor = Color.MediumPurple
+        HtmlColorLabel2.BorderColor = Color.FromArgb(CByte(120), CByte(255), CByte(255), CByte(255))
         HtmlColorLabel2.BorderRadius = 18
         HtmlColorLabel2.BorderSize = 2
         HtmlColorLabel2.Dock = DockStyle.Top
+        HtmlColorLabel2.ForeColor = Color.FromArgb(CByte(160), CByte(255), CByte(255), CByte(255))
         HtmlColorLabel2.Location = New Point(100, 196)
         HtmlColorLabel2.Margin = New Padding(2)
         HtmlColorLabel2.Name = "HtmlColorLabel2"
@@ -72,7 +74,7 @@ Partial Class Form_v6_设置_LakeUI许可证
         HtmlColorLabel1.Text = "LakeUI 商业许可证"
         HtmlColorLabel1.TextAlign = LakeUI.HtmlColorLabel.TextAlignEnum.Center
         ' 
-        ' Form_v6_设置_LakeUI许可信息
+        ' Form_v6_设置_LakeUI许可证
         ' 
         AutoScaleDimensions = New SizeF(96F, 96F)
         AutoScaleMode = AutoScaleMode.Dpi
@@ -81,7 +83,7 @@ Partial Class Form_v6_设置_LakeUI许可证
         Controls.Add(ModernPanel1)
         Font = New Font("Microsoft YaHei UI", 10F)
         ForeColor = Color.Silver
-        Name = "Form_v6_设置_LakeUI许可信息"
+        Name = "Form_v6_设置_LakeUI许可证"
         Text = "Form_v6_设置_LakeUI许可信息"
         ModernPanel1.ResumeLayout(False)
         ModernPanel1.PerformLayout()

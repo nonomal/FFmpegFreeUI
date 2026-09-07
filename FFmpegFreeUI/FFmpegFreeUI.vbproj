@@ -7,21 +7,22 @@
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <UseWPF>True</UseWPF>
-	  <!--<PublishReadyToRun>True</PublishReadyToRun>
-	  <PublishReadyToRunEmitSymbols>True</PublishReadyToRunEmitSymbols>-->
-	  <SelfContained>False</SelfContained>
-	  <PublishSingleFile>True</PublishSingleFile>
-	  <!--<IncludeNativeLibrariesForSelfExtract>True</IncludeNativeLibrariesForSelfExtract>-->
-	  <!--<EnableCompressionInSingleFile>True</EnableCompressionInSingleFile>-->
-	  <Authors>1059 Studio</Authors>
-	  <Company>1059 Studio</Company>
-	  <Version>6.0.0.1</Version>
-	  <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
-	  <ApplicationIcon>ico.ico</ApplicationIcon>
-	  <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
-	  <Title>FFmpegFreeUI</Title>
-      <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
-      <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+    <!--<PublishReadyToRun>True</PublishReadyToRun>
+    <PublishReadyToRunEmitSymbols>True</PublishReadyToRunEmitSymbols>-->
+    <SelfContained>False</SelfContained>
+    <!--<IncludeNativeLibrariesForSelfExtract>True</IncludeNativeLibrariesForSelfExtract>-->
+    <!--<EnableCompressionInSingleFile>True</EnableCompressionInSingleFile>-->
+    <Authors>1059 Studio</Authors>
+	<Company>1059 Studio</Company>
+	<AssemblyVersion>6.2.15</AssemblyVersion>
+	<FileVersion>6.2.15</FileVersion>
+	<Version>6.2.15</Version>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>ico.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <Title>FFmpegFreeUI</Title>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -53,14 +54,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
-    <PackageReference Include="SunnyUI" Version="3.7.2" />
+    <PackageReference Include="LibreHardwareMonitorLib" Version="0.9.6" />
+	<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.13.0" />
+	<PackageReference Include="System.Management" Version="10.0.9" />
     <PackageReference Include="Vortice.Direct2D1" Version="3.8.3" />
     <PackageReference Include="Vortice.Direct3D11" Version="3.8.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="LakeUI">
-      <HintPath>..\..\LakeUI\LakeUI\bin\Debug\net10.0-windows\LakeUI.dll</HintPath>
+      <HintPath>..\..\LakeUI\LakeUI\bin\Debug\net10.0-windows10.0.17763.0\LakeUI.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -102,12 +105,6 @@
     <None Update="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
-    </None>
-    <None Update="Resources\语言_en.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="Resources\语言_zh.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

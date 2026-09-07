@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form_v6_设置_转译辅助
     Inherits System.Windows.Forms.Form
 
@@ -23,11 +23,19 @@ Partial Class Form_v6_设置_转译辅助
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         ModernPanel1 = New LakeUI.ModernPanel()
+        ModernPanel1.BackColor = Color.Transparent
+        ModernPanel1.BackColor1 = Color.Transparent
         MCB_转译模式 = New LakeUI.ModernCheckBox()
-        Panel1 = New Panel()
+        Panel1 = New LakeUI.ModernPanel()
+        Panel1.BackColor = Color.Transparent
+        Panel1.BackColor1 = Color.Transparent
+        Panel1.BorderSize = 0
         MTB_覆盖参数传递 = New LakeUI.ModernTextBox()
         HtmlColorLabel2 = New LakeUI.HtmlColorLabel()
-        Panel2 = New Panel()
+        Panel2 = New LakeUI.ModernPanel()
+        Panel2.BackColor = Color.Transparent
+        Panel2.BackColor1 = Color.Transparent
+        Panel2.BorderSize = 0
         MCB_替代进程的文件名 = New LakeUI.ModernTextBox()
         HtmlColorLabel6 = New LakeUI.HtmlColorLabel()
         HtmlColorLabel1 = New LakeUI.HtmlColorLabel()
@@ -38,7 +46,6 @@ Partial Class Form_v6_设置_转译辅助
         ' 
         ' ModernPanel1
         ' 
-        ModernPanel1.BackColor1 = Color.FromArgb(CByte(24), CByte(24), CByte(24))
         ModernPanel1.BorderSize = 0
         ModernPanel1.Controls.Add(MCB_转译模式)
         ModernPanel1.Controls.Add(Panel1)
@@ -67,10 +74,9 @@ Partial Class Form_v6_设置_转译辅助
         MCB_转译模式.CheckMarkColor = Color.WhiteSmoke
         MCB_转译模式.Dock = DockStyle.Top
         MCB_转译模式.Location = New Point(20, 201)
-        MCB_转译模式.MainSubTextSpacing = 3
         MCB_转译模式.Name = "MCB_转译模式"
         MCB_转译模式.Padding = New Padding(0, 10, 0, 10)
-        MCB_转译模式.Size = New Size(745, 60)
+        MCB_转译模式.Size = New Size(745, 58)
         MCB_转译模式.SubText = "去除盘符、斜杠改为除号"
         MCB_转译模式.TabIndex = 35
         MCB_转译模式.Text = "转译模式"
@@ -88,16 +94,16 @@ Partial Class Form_v6_设置_转译辅助
         ' MTB_覆盖参数传递
         ' 
         MTB_覆盖参数传递.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        MTB_覆盖参数传递.BorderColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        MTB_覆盖参数传递.BorderColorFocus = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MTB_覆盖参数传递.BorderColor = Color.Empty
+        MTB_覆盖参数传递.BorderColorFocus = Color.FromArgb(CByte(80), CByte(220), CByte(220), CByte(220))
         MTB_覆盖参数传递.BorderRadius = 10
         MTB_覆盖参数传递.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
         MTB_覆盖参数传递.Dock = DockStyle.Fill
         MTB_覆盖参数传递.Location = New Point(0, 10)
-        MTB_覆盖参数传递.Margin = New Padding(2, 2, 2, 2)
+        MTB_覆盖参数传递.Margin = New Padding(2)
         MTB_覆盖参数传递.Name = "MTB_覆盖参数传递"
         MTB_覆盖参数传递.Padding = New Padding(10, 0, 10, 0)
-        MTB_覆盖参数传递.ScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
+        MTB_覆盖参数传递.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
         MTB_覆盖参数传递.Size = New Size(745, 32)
         MTB_覆盖参数传递.TabIndex = 6
         ' 
@@ -128,16 +134,16 @@ Partial Class Form_v6_设置_转译辅助
         ' MCB_替代进程的文件名
         ' 
         MCB_替代进程的文件名.BackColor1 = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        MCB_替代进程的文件名.BorderColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
-        MCB_替代进程的文件名.BorderColorFocus = Color.FromArgb(CByte(60), CByte(220), CByte(220), CByte(220))
+        MCB_替代进程的文件名.BorderColor = Color.Empty
+        MCB_替代进程的文件名.BorderColorFocus = Color.FromArgb(CByte(80), CByte(220), CByte(220), CByte(220))
         MCB_替代进程的文件名.BorderRadius = 10
         MCB_替代进程的文件名.CaretColor = Color.FromArgb(CByte(220), CByte(220), CByte(220))
         MCB_替代进程的文件名.Dock = DockStyle.Fill
         MCB_替代进程的文件名.Location = New Point(0, 10)
-        MCB_替代进程的文件名.Margin = New Padding(2, 2, 2, 2)
+        MCB_替代进程的文件名.Margin = New Padding(2)
         MCB_替代进程的文件名.Name = "MCB_替代进程的文件名"
         MCB_替代进程的文件名.Padding = New Padding(10, 0, 10, 0)
-        MCB_替代进程的文件名.ScrollBarHoverColor = Color.FromArgb(CByte(200), CByte(200), CByte(200))
+        MCB_替代进程的文件名.SelectionColor = Color.FromArgb(CByte(40), CByte(220), CByte(220), CByte(220))
         MCB_替代进程的文件名.Size = New Size(745, 32)
         MCB_替代进程的文件名.TabIndex = 6
         ' 
@@ -187,10 +193,10 @@ Partial Class Form_v6_设置_转译辅助
     End Sub
 
     Friend WithEvents ModernPanel1 As LakeUI.ModernPanel
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel1 As LakeUI.ModernPanel
     Friend WithEvents MTB_覆盖参数传递 As LakeUI.ModernTextBox
     Friend WithEvents HtmlColorLabel2 As LakeUI.HtmlColorLabel
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Panel2 As LakeUI.ModernPanel
     Friend WithEvents MCB_替代进程的文件名 As LakeUI.ModernTextBox
     Friend WithEvents HtmlColorLabel6 As LakeUI.HtmlColorLabel
     Friend WithEvents HtmlColorLabel1 As LakeUI.HtmlColorLabel
