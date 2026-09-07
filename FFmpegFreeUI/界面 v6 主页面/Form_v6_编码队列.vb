@@ -127,10 +127,11 @@ Public Class Form_v6_编码队列
         Dim items = 编码队列_v6.获取队列快照()
         Dim running = items.Where(Function(x) x.状态 = 编码任务状态_v6.正在处理 OrElse x.状态 = 编码任务状态_v6.已暂停).Count()
         Dim errors = items.Where(Function(x) x.状态 = 编码任务状态_v6.错误).Count()
+        Dim 标签颜色 = System.Drawing.ColorTranslator.ToHtml(界面主题_v6.获取当前主题前景色(Color.DarkGray))
         HtmlColorLabel1.Text =
-            $"<span style=""color:DarkGray"">总数 </span><span style=""font-size:14pt; font-weight:bold; color:CornflowerBlue"">{items.Count}</span>" &
-            $"   <span style=""color:DarkGray"">运行 </span><span style=""font-size:14pt; font-weight:bold; color:YellowGreen"">{running}</span>" &
-            $"   <span style=""color:DarkGray"">错误 </span><span style=""font-size:14pt; font-weight:bold; color:{界面配色_v6.错误文本色Html}"">{errors}</span>"
+            $"<span style=""color:{标签颜色}"">总数 </span><span style=""font-size:14pt; font-weight:bold; color:CornflowerBlue"">{items.Count}</span>" &
+            $"   <span style=""color:{标签颜色}"">运行 </span><span style=""font-size:14pt; font-weight:bold; color:YellowGreen"">{running}</span>" &
+            $"   <span style=""color:{标签颜色}"">错误 </span><span style=""font-size:14pt; font-weight:bold; color:{界面配色_v6.错误文本色Html}"">{errors}</span>"
     End Sub
 
     Private Sub Panel1_SizeChanged(sender As Object, e As EventArgs) Handles Panel1.SizeChanged
